@@ -8,11 +8,7 @@ const de = {
 
   // Hero
   hero_eyebrow: "Edler Kakao · La Convención · Peru",
-  hero_subtitle: "Das ist nicht
-nur Kakao.
-Es ist das Versprechen,
-dass sie nie wieder
-vergessen werden.",
+  hero_subtitle: "Das ist nicht\nnur Kakao.\nEs ist das Versprechen,\ndass sie nie wieder\nvergessen werden.",
   hero_desc: "Edler Kakao aus La Convención, Cusco. Geerntet von Familien, die wieder zu glauben begannen, mit Geduld fermentiert und der Welt mit ihren intakten Geschichten übergeben.",
   hero_cta_primary: 'WIRKUNG ERZIELEN',
   hero_cta_secondary: 'Unsere Bauern',

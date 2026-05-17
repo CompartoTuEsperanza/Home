@@ -178,7 +178,7 @@ export default function Products({ onAddToCart }: ProductsProps) {
           src="/Home/images/products-bg.jpeg"
         />
         <div className="absolute inset-0 bg-coffee-900/60"></div>
-        <div className="absolute inset-0 bg-amber-900/20"></div>
+        <div className="absolute inset-0 bg-rose-950/30"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto">

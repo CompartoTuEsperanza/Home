@@ -16,7 +16,7 @@ const ProcessSection = () => {
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-coffee-900/92" />
-        <div className="absolute inset-0 bg-amber-950/25" />
+        <div className="absolute inset-0 bg-rose-950/35" />
       </div>
 
       <div className="relative max-w-7xl mx-auto">

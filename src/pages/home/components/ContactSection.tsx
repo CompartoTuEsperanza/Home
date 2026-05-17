@@ -221,7 +221,7 @@ const ContactSection = () => {
         <div className="absolute inset-0">
           <video autoPlay muted loop playsInline src="/Home/videos/hero4.mp4" className="w-full h-full object-cover object-center" />
           <div className="absolute inset-0 bg-coffee-900/80" />
-          <div className="absolute inset-0 bg-amber-950/30" />
+          <div className="absolute inset-0 bg-rose-950/40" />
         </div>
 
         <div className="relative max-w-6xl mx-auto">
@@ -324,7 +324,7 @@ const ContactSection = () => {
                 <div className="font-serif text-base text-cream mb-1">{t('contact_newsletter_title')}</div>
                 <p className="text-cream/40 text-xs font-sans mb-4">{t('contact_newsletter_desc')}</p>
                 <input type="email" placeholder={t('contact_newsletter_email')} className="w-full bg-white/5 border border-cream/15 rounded-lg px-4 py-2.5 text-cream text-sm font-sans placeholder-cream/30 focus:outline-none focus:border-gold/50 mb-3" />
-                <button className="relative overflow-hidden w-full bg-gold hover:bg-amber-400 text-coffee-900 font-sans font-bold py-2.5 rounded-lg text-sm transition-colors cursor-pointer whitespace-nowrap group">
+                <button className="relative overflow-hidden w-full bg-gold hover:bg-amber-300 text-coffee-900 font-sans font-bold py-2.5 rounded-lg text-sm transition-colors cursor-pointer whitespace-nowrap group">
                   <span className="relative z-10">{t('contact_newsletter_btn')}</span>
                   <span className="absolute top-0 bottom-0 w-1/3 animate-shimmer bg-gradient-to-r from-transparent via-white/50 to-transparent" />
                 </button>
@@ -440,7 +440,7 @@ const ContactSection = () => {
                 <div className="font-serif text-sm text-cream mb-1">{t('contact_newsletter_title')}</div>
                 <p className="text-cream/40 text-xs font-sans mb-3">{t('contact_newsletter_desc_short')}</p>
                 <input type="email" placeholder={t('contact_newsletter_email')} className="w-full bg-white/5 border border-cream/15 rounded-lg px-4 py-2.5 text-cream text-sm font-sans placeholder-cream/30 focus:outline-none focus:border-gold/50 mb-2.5" />
-                <button className="relative overflow-hidden w-full bg-gold hover:bg-amber-400 text-coffee-900 font-sans font-bold py-2.5 rounded-lg text-sm transition-colors cursor-pointer whitespace-nowrap group">
+                <button className="relative overflow-hidden w-full bg-gold hover:bg-amber-300 text-coffee-900 font-sans font-bold py-2.5 rounded-lg text-sm transition-colors cursor-pointer whitespace-nowrap group">
                   <span className="relative z-10">{t('contact_newsletter_btn')}</span>
                   <span className="absolute top-0 bottom-0 w-1/3 animate-shimmer bg-gradient-to-r from-transparent via-white/50 to-transparent" />
                 </button>
@@ -500,7 +500,7 @@ const ContactSection = () => {
                       formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }, 50);
                   }}
-                  className="relative overflow-hidden w-full bg-gold hover:bg-amber-400 text-coffee-900 font-sans font-bold py-2.5 rounded-xl text-xs tracking-wide transition-colors cursor-pointer whitespace-nowrap"
+                  className="relative overflow-hidden w-full bg-gold hover:bg-amber-300 text-coffee-900 font-sans font-bold py-2.5 rounded-xl text-xs tracking-wide transition-colors cursor-pointer whitespace-nowrap"
                 >
                   <span className="relative z-10">{t('contact_support_btn', { name: mobilePreview.name.split(' ')[0] })}</span>
                   <span className="absolute top-0 bottom-0 w-1/3 animate-shimmer bg-gradient-to-r from-transparent via-white/50 to-transparent" />
