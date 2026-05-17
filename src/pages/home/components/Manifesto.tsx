@@ -184,12 +184,12 @@ const Manifesto = () => {
 
         {/* Image column */}
         <div className="lg:sticky lg:top-20">
-          <div className="rounded-2xl overflow-hidden" style={{ border: '1px solid rgba(201,168,76,0.2)' }}>
+          <div className="rounded-2xl overflow-hidden w-full" style={{ border: '1px solid rgba(201,168,76,0.2)' }}>
             <img
               src="/Home/images/imagen1.png"
               alt="CompartoTuEsperanza"
               className="w-full h-full object-cover"
-              style={{ minHeight: '360px', maxHeight: '480px' }}
+              style={{ minHeight: '360px', maxHeight: '480px', width: '100%', objectFit: 'cover' }}
             />
           </div>
         </div>
