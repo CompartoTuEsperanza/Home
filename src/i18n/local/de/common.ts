@@ -7,9 +7,13 @@ const de = {
   nav_contact: 'Kontakt',
 
   // Hero
-  hero_eyebrow: 'Spezialitätenkaffee · Peru',
-  hero_subtitle: 'Das ist nicht\nnur Kaffee.\nEs ist eine zweite\nChance.',
-  hero_desc: 'Kaffee aus einzigartiger Herkunft, angebaut in den reinsten Tälern der peruanischen Anden. Handverarbeitet, sonnengetrocknet, mit Sinn geliefert.',
+  hero_eyebrow: "Edler Kakao · La Convención · Peru",
+  hero_subtitle: "Das ist nicht
+nur Kakao.
+Es ist das Versprechen,
+dass sie nie wieder
+vergessen werden.",
+  hero_desc: "Edler Kakao aus La Convención, Cusco. Geerntet von Familien, die wieder zu glauben begannen, mit Geduld fermentiert und der Welt mit ihren intakten Geschichten übergeben.",
   hero_cta_primary: 'WIRKUNG ERZIELEN',
   hero_cta_secondary: 'Unsere Bauern',
 

@@ -7,9 +7,13 @@ const es = {
   nav_contact: 'Contacto',
 
   // Hero
-  hero_eyebrow: 'Café de Especialidad · Perú',
-  hero_subtitle: 'Este no es\nsolo café.\nEs una segunda\noportunidad.',
-  hero_desc: 'Café de origen único, cultivado en los valles más puros de los Andes peruanos. Procesado a mano, secado con sol, entregado con propósito.',
+  hero_eyebrow: "Cacao Fino · La Convención · Perú",
+  hero_subtitle: "Esto no es
+solo cacao.
+Es la promesa
+de que nunca más
+serán olvidados.",
+  hero_desc: "Cacao fino de La Convención, Cusco. Cosechado por familias que creyeron de nuevo, fermentado con paciencia y entregado al mundo con sus historias intactas.",
   hero_cta_primary: 'GENERAR IMPACTO',
   hero_cta_secondary: 'Nuestros Productores',
 

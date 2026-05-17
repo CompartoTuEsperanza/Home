@@ -13,7 +13,7 @@ export const heroSlides = [
   },
   {
     type: 'image' as const,
-    src: '/Home/images/hero2.jpg',
+    src: '/Home/images/hero2.jpeg',
   },
   {
     type: 'image' as const,

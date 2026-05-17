@@ -7,9 +7,13 @@ const cs = {
   nav_contact: 'Kontakt',
 
   // Hero
-  hero_eyebrow: 'Specialty káva · Peru',
-  hero_subtitle: 'Toto není\njen káva.\nJe to druhá\nšance.',
-  hero_desc: 'Káva z jedinečného původu, pěstovaná v nejčistších údolích peruánských And. Ručně zpracovaná, sušená na slunci, dodaná s účelem.',
+  hero_eyebrow: "Jemné kakao · La Convención · Peru",
+  hero_subtitle: "Toto není
+jen kakao.
+Je to slib,
+že už nikdy
+nebudou zapomenuti.",
+  hero_desc: "Jemné kakao z La Convención, Cusco. Sklízeno rodinami, které znovu uvěřily, fermentováno s trpělivostí a předáno světu s neporušenými příběhy.",
   hero_cta_primary: 'VYTVOŘIT DOPAD',
   hero_cta_secondary: 'Naši farmáři',
 

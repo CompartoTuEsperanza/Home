@@ -7,9 +7,13 @@ const en = {
   nav_contact: 'Contact',
 
   // Hero
-  hero_eyebrow: 'Specialty Coffee · Peru',
-  hero_subtitle: 'This is not\njust coffee.\nIt\'s a second\nchance.',
-  hero_desc: 'Single-origin coffee, grown in the purest valleys of the Peruvian Andes. Hand-processed, sun-dried, delivered with purpose.',
+  hero_eyebrow: "Fine Cacao · La Convención · Peru",
+  hero_subtitle: "This is not
+just cacao.
+It is the promise
+that they will never
+be forgotten again.",
+  hero_desc: "Fine cacao from La Convención, Cusco. Harvested by families who believed again, fermented with patience, and delivered to the world with their stories intact.",
   hero_cta_primary: 'MAKE AN IMPACT',
   hero_cta_secondary: 'Our Farmers',
 
