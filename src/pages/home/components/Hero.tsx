@@ -56,9 +56,33 @@ const Hero = () => {
         <p className="text-gold text-xs tracking-[0.4em] uppercase font-serif mb-4 opacity-90">
           {t('hero_eyebrow')}
         </p>
-        <h1 className="font-serif font-black text-[clamp(1.8rem,5vw,4rem)] leading-none tracking-[0.1em] text-cream uppercase mb-4">
-          Comparto tu Esperanza
+        <h1
+          className="font-serif font-black text-[clamp(1.8rem,5vw,4rem)] leading-none tracking-[0.1em] uppercase mb-4 relative inline-block"
+          style={{
+            background: 'linear-gradient(135deg, #7A1D2E 0%, #B83D55 50%, #7A1D2E 100%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            backgroundClip: 'text',
+            textShadow: '0 0 30px rgba(201,169,110,0.4)',
+            filter: 'drop-shadow(0 2px 8px rgba(201,169,110,0.3))',
+          }}
+        >
+          <span className="relative">
+            Comparto tu Esperanza
+            <span
+              className="absolute inset-0 animate-shimmer pointer-events-none"
+              style={{
+                background: 'linear-gradient(110deg, transparent 30%, rgba(255,255,255,0.4) 50%, transparent 70%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              Comparto tu Esperanza
+            </span>
+          </span>
         </h1>
+
         <p className="font-serif font-black text-[clamp(0.85rem,2.3vw,1.9rem)] leading-tight tracking-[0.08em] text-cream uppercase mb-8 whitespace-pre-line">
           {t('hero_subtitle')}
         </p>
