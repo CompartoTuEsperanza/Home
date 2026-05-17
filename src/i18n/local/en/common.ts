@@ -8,7 +8,7 @@ const en = {
 
   // Hero
   hero_eyebrow: "Fine Cacao · La Convención · Peru",
-  hero_subtitle: "This is not\njust cacao.\nIt is the promise\nthat they will never\nbe forgotten again.",
+  hero_subtitle: "This is not just cacao.\nIt is the promise\nthat they will never be forgotten again.",
   hero_desc: "Fine cacao from La Convención, Cusco. Harvested by families who believed again, fermented with patience, and delivered to the world with their stories intact.",
   hero_cta_primary: 'MAKE AN IMPACT',
   hero_cta_secondary: 'Our Farmers',
