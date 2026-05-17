@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: /Holzen/
+          BASE_PATH: /Home/
 
       - name: Fix 404
         run: cp out/index.html out/404.html
