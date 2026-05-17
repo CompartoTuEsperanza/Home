@@ -177,10 +177,45 @@ const Farmers = () => {
                 </span>
               </div>
 
-              <div className="absolute top-4 right-4 z-30">
-                <span className="text-cream/30 font-serif text-sm tabular-nums">
-                  {String(cur + 1).padStart(2, '0')} / {String(farmers.length).padStart(2, '0')}
-                </span>
+              <div className="absolute top-4 right-4 z-30 flex flex-col items-end gap-2">
+                {/* Badge principal: años cultivando */}
+                <div
+                  className="relative overflow-hidden inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-sans font-bold"
+                  style={{
+                    background: 'linear-gradient(135deg, #3F0D17 0%, #7A1D2E 50%, #3F0D17 100%)',
+                    color: '#fff8f0',
+                    fontSize: '9px',
+                    letterSpacing: '0.12em',
+                    boxShadow: '0 0 14px rgba(122,29,46,0.65), 0 0 6px rgba(201,169,110,0.2)',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  <i className="ri-seedling-line" style={{ fontSize: '10px' }} />
+                  20 años cultivando
+                  <span
+                    className="absolute top-0 bottom-0 w-1/3 pointer-events-none"
+                    style={{
+                      background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)',
+                      animation: 'shimmerSweep 2.4s ease-in-out infinite',
+                    }}
+                  />
+                </div>
+                {/* Badge secundario: edad */}
+                <div
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full font-sans font-semibold"
+                  style={{
+                    background: 'rgba(63,13,23,0.82)',
+                    border: '1px solid rgba(122,29,46,0.6)',
+                    color: '#fff8f0',
+                    fontSize: '9px',
+                    letterSpacing: '0.1em',
+                    backdropFilter: 'blur(8px)',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  <i className="ri-user-line" style={{ fontSize: '9px', color: '#C9A84C' }} />
+                  54 años
+                </div>
               </div>
 
               {!showStory && (
