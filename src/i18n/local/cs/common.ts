@@ -9,7 +9,7 @@ const cs = {
   // Hero
   hero_eyebrow: "Kakao Chuncho · La Convención · Peru",
   hero_subtitle: "Toto není jen kakao.\nJe to slib:\nuž nikdy nebudou zapomenuti.",
-  hero_desc: "Kakao Chuncho z La Convención, Cusco. Sklízeno rodinami, které znovu uvěřily, fermentováno s trpělivostí a předáno světu s neporušenými příběhy.",
+  hero_desc: "Kakao Chuncho z Echarati, La Convención, Cusco. Sklízeno rodinami, které znovu uvěřily, fermentováno s trpělivostí a předáno světu s neporušenými příběhy.",
   hero_cta_primary: 'VYTVOŘIT DOPAD',
   hero_cta_secondary: 'Naši farmáři',
 

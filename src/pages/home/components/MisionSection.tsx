@@ -8,6 +8,11 @@ const IMAGES = [
 
 const AUTOPLAY_MS = 4500;
 
+const MISION_PARAGRAPHS = [
+  `Construir una gran familia basada en la lealtad, la honestidad y la confianza mutua, uniendo fuerzas con los productores más comprometidos de Echarati para transformar sus vidas y hacer realidad sus sueños.`,
+  `Este es un gran proyecto donde apostamos y arriesgamos todo por ustedes, porque sabemos que su esfuerzo merece ser valorado. Nos protegemos mutuamente frente a un sistema injusto garantizando un precio fijo y digno, independiente de los mercados globales, para que nunca más nadie se aproveche de su trabajo. En este lazo sagrado, trabajamos unidos por un bien común: nuestra organización, Comparto tu Esperanza, se entrega por completo a cuidar de sus familias y a sanar las heridas del pasado, mientras junto con la aliada, la empresa Linaje del Inka, se encarga de abrir las puertas del mundo para exportar su arte.`,
+];
+
 const MisionSection = () => {
   const { t } = useTranslation();
   const [cur, setCur] = useState(0);
@@ -52,8 +57,13 @@ const MisionSection = () => {
         className="absolute inset-0 bg-center bg-cover pointer-events-none"
         style={{ backgroundImage: 'url(/Home/images/hero1.jpg)' }}
       />
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-coffee-900/72 pointer-events-none" />
+      {/* Overlay suave guinda/marrón — cortina tenue para apreciar la imagen */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: 'linear-gradient(160deg, rgba(63,13,23,0.38) 0%, rgba(40,18,8,0.42) 60%, rgba(63,13,23,0.35) 100%)',
+        }}
+      />
 
       <div className="relative z-10 max-w-7xl mx-auto px-0 md:px-8 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -71,7 +81,11 @@ const MisionSection = () => {
               <p className="text-gold text-xs tracking-[0.4em] uppercase font-sans mb-3">
                 {t('farmers_eyebrow')}
               </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-cream mb-4">
+              {/* Título: 2 puntos más grande (text-5xl/6xl) y más grueso (900) */}
+              <h2
+                className="font-serif text-5xl md:text-6xl text-cream mb-4"
+                style={{ fontWeight: 900 }}
+              >
                 {t('mision_title', 'Misión')}
               </h2>
               <div
@@ -84,7 +98,7 @@ const MisionSection = () => {
             <div
               className="rounded-2xl p-6 md:p-8"
               style={{
-                background: 'rgba(20,10,5,0.60)',
+                background: 'rgba(20,10,5,0.65)',
                 backdropFilter: 'blur(14px)',
                 border: '1px solid rgba(201,168,76,0.15)',
               }}
@@ -93,27 +107,15 @@ const MisionSection = () => {
                 className="ri-double-quotes-l text-gold/40 block mb-3"
                 style={{ fontSize: '2rem' }}
               />
-              <p className="font-serif text-cream/90 text-base md:text-lg leading-relaxed">
-                {t('manifesto_mision')}
-              </p>
-            </div>
-
-            {/* Decorative stat row */}
-            <div className="flex gap-6 mt-8">
-              <div className="flex flex-col">
-                <span className="font-serif text-gold font-bold text-2xl">142</span>
-                <span className="text-cream/40 font-sans text-[10px] tracking-widest uppercase">{t('manifesto_stat_families')}</span>
-              </div>
-              <div className="w-px bg-cream/10" />
-              <div className="flex flex-col">
-                <span className="font-serif text-gold font-bold text-2xl">48K€</span>
-                <span className="text-cream/40 font-sans text-[10px] tracking-widest uppercase">{t('manifesto_stat_donated')}</span>
-              </div>
-              <div className="w-px bg-cream/10" />
-              <div className="flex flex-col">
-                <span className="font-serif text-gold font-bold text-2xl">340</span>
-                <span className="text-cream/40 font-sans text-[10px] tracking-widest uppercase">{t('manifesto_stat_children')}</span>
-              </div>
+              {MISION_PARAGRAPHS.map((para, i) => (
+                <p
+                  key={i}
+                  className="font-serif text-cream/90 text-sm md:text-base leading-relaxed"
+                  style={{ marginBottom: i < MISION_PARAGRAPHS.length - 1 ? '1rem' : 0 }}
+                >
+                  {para}
+                </p>
+              ))}
             </div>
           </div>
 
@@ -127,7 +129,7 @@ const MisionSection = () => {
           >
             <div
               className="relative rounded-2xl overflow-hidden"
-              style={{ border: '1px solid rgba(201,168,76,0.2)', minHeight: '420px', maxHeight: '520px' }}
+              style={{ border: '1px solid rgba(201,168,76,0.2)', minHeight: '420px', maxHeight: '560px' }}
             >
               {IMAGES.map((src, i) => (
                 <img
@@ -143,9 +145,33 @@ const MisionSection = () => {
               ))}
 
               {/* Gradient overlay bottom */}
-              <div className="absolute inset-x-0 bottom-0 h-24 pointer-events-none"
-                style={{ background: 'linear-gradient(to top, rgba(15,8,3,0.8), transparent)' }}
+              <div
+                className="absolute inset-x-0 bottom-0 h-28 pointer-events-none"
+                style={{ background: 'linear-gradient(to top, rgba(15,8,3,0.85), transparent)' }}
               />
+
+              {/* Badge "Desliza" con destello — encima de las fotos */}
+              <div className="absolute top-4 left-1/2 z-20" style={{ transform: 'translateX(-50%)' }}>
+                <div
+                  className="relative overflow-hidden inline-flex items-center gap-2 px-5 py-2 rounded-full font-sans text-xs font-semibold tracking-[0.18em] uppercase select-none cursor-default"
+                  style={{
+                    background: 'linear-gradient(135deg, #3F0D17 0%, #7A1D2E 50%, #3F0D17 100%)',
+                    color: '#fff8f0',
+                    boxShadow: '0 0 18px rgba(122,29,46,0.6), 0 0 10px rgba(201,169,110,0.25)',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  <i className="ri-drag-move-line text-sm" />
+                  Desliza para ver más
+                  <span
+                    className="absolute top-0 bottom-0 w-1/3 pointer-events-none"
+                    style={{
+                      background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent)',
+                      animation: 'misionShimmer 2.2s ease-in-out infinite',
+                    }}
+                  />
+                </div>
+              </div>
 
               {/* Dots */}
               <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10">
@@ -198,6 +224,11 @@ const MisionSection = () => {
         @keyframes misionProgress {
           from { transform: scaleX(0); }
           to   { transform: scaleX(1); }
+        }
+        @keyframes misionShimmer {
+          0%   { transform: translateX(-150%); }
+          60%  { transform: translateX(250%); }
+          100% { transform: translateX(250%); }
         }
       `}</style>
     </section>

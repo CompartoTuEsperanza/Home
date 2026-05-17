@@ -9,7 +9,7 @@ const en = {
   // Hero
   hero_eyebrow: "Chuncho Cacao · La Convención · Peru",
   hero_subtitle: "This is not just cacao.\nIt is a promise:\nthey will never be forgotten.",
-  hero_desc: "Chuncho Cacao from La Convención, Cusco. Harvested by families who believed again, fermented with patience, and delivered to the world with their stories intact.",
+  hero_desc: "Chuncho Cacao from Echarati, La Convención, Cusco. Harvested by families who believed again, fermented with patience, and delivered to the world with their stories intact.",
   hero_cta_primary: 'MAKE AN IMPACT',
   hero_cta_secondary: 'Our Farmers',
 

@@ -9,7 +9,7 @@ const de = {
   // Hero
   hero_eyebrow: "Chuncho-Kakao · La Convención · Peru",
   hero_subtitle: "Das ist nicht nur Kakao.\nEs ist ein Versprechen:\nsie werden nie vergessen.",
-  hero_desc: "Chuncho-Kakao aus La Convención, Cusco. Geerntet von Familien, die wieder zu glauben begannen, mit Geduld fermentiert und der Welt mit ihren intakten Geschichten übergeben.",
+  hero_desc: "Chuncho-Kakao aus Echarati, La Convención, Cusco. Geerntet von Familien, die wieder zu glauben begannen, mit Geduld fermentiert und der Welt mit ihren intakten Geschichten übergeben.",
   hero_cta_primary: 'WIRKUNG ERZIELEN',
   hero_cta_secondary: 'Unsere Bauern',
 
