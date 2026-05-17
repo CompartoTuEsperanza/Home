@@ -57,7 +57,7 @@ const MisionSection = () => {
         className="absolute inset-0 bg-center bg-cover pointer-events-none"
         style={{ backgroundImage: 'url(/Home/images/hero1.jpg)' }}
       />
-      {/* Overlay suave guinda/marrón — cortina tenue para apreciar la imagen */}
+      {/* Overlay suave guinda/marrón */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -66,9 +66,9 @@ const MisionSection = () => {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-0 md:px-8 lg:px-16">
-        <div className="grid lg:grid-cols-2 gap-10 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 items-start">
 
-          {/* LEFT — header + text */}
+          {/* LEFT — carousel (imagen + badge) */}
           <div
             className="transition-all duration-700"
             style={{
@@ -76,57 +76,24 @@ const MisionSection = () => {
               transform: visible ? 'translateX(0)' : 'translateX(-40px)',
             }}
           >
-            {/* Header */}
-            <div className="mb-8">
+            {/* Header encima del carrusel */}
+            <div className="mb-6">
               <p className="text-gold text-xs tracking-[0.4em] uppercase font-sans mb-3">
                 {t('farmers_eyebrow')}
               </p>
-              {/* Título: 2 puntos más grande (text-5xl/6xl) y más grueso (900) */}
               <h2
-                className="font-serif text-5xl md:text-6xl text-cream mb-4"
+                className="font-serif text-5xl md:text-6xl text-cream mb-3"
                 style={{ fontWeight: 900 }}
               >
                 {t('mision_title', 'Misión')}
               </h2>
               <div
-                className="h-[2px] w-16 mb-8"
+                className="h-[2px] w-16"
                 style={{ background: 'linear-gradient(90deg, #7A1D2E, transparent)' }}
               />
             </div>
 
-            {/* Mission text */}
-            <div
-              className="rounded-2xl p-6 md:p-8"
-              style={{
-                background: 'rgba(20,10,5,0.65)',
-                backdropFilter: 'blur(14px)',
-                border: '1px solid rgba(201,168,76,0.15)',
-              }}
-            >
-              <i
-                className="ri-double-quotes-l text-gold/40 block mb-3"
-                style={{ fontSize: '2rem' }}
-              />
-              {MISION_PARAGRAPHS.map((para, i) => (
-                <p
-                  key={i}
-                  className="font-serif text-cream/90 text-sm md:text-base leading-relaxed"
-                  style={{ marginBottom: i < MISION_PARAGRAPHS.length - 1 ? '1rem' : 0 }}
-                >
-                  {para}
-                </p>
-              ))}
-            </div>
-          </div>
-
-          {/* RIGHT — image carousel */}
-          <div
-            className="transition-all duration-700 delay-200"
-            style={{
-              opacity: visible ? 1 : 0,
-              transform: visible ? 'translateX(0)' : 'translateX(40px)',
-            }}
-          >
+            {/* Carousel container */}
             <div
               className="relative rounded-2xl overflow-hidden"
               style={{ border: '1px solid rgba(201,168,76,0.2)', minHeight: '420px', maxHeight: '560px' }}
@@ -150,8 +117,8 @@ const MisionSection = () => {
                 style={{ background: 'linear-gradient(to top, rgba(15,8,3,0.85), transparent)' }}
               />
 
-              {/* Badge "Desliza" con destello — encima de las fotos */}
-              <div className="absolute top-4 left-1/2 z-20" style={{ transform: 'translateX(-50%)' }}>
+              {/* Badge "Desliza" — ahora en la parte inferior sobre el gradiente, no choca con imagen */}
+              <div className="absolute bottom-10 left-1/2 z-20" style={{ transform: 'translateX(-50%)' }}>
                 <div
                   className="relative overflow-hidden inline-flex items-center gap-2 px-5 py-2 rounded-full font-sans text-xs font-semibold tracking-[0.18em] uppercase select-none cursor-default"
                   style={{
@@ -215,6 +182,35 @@ const MisionSection = () => {
                 <i className="ri-arrow-right-s-line text-cream text-lg" />
               </button>
             </div>
+          </div>
+
+          {/* RIGHT — dos cuadros con los párrafos de la misión */}
+          <div
+            className="transition-all duration-700 delay-200 flex flex-col gap-5 lg:pt-36"
+            style={{
+              opacity: visible ? 1 : 0,
+              transform: visible ? 'translateX(0)' : 'translateX(40px)',
+            }}
+          >
+            {MISION_PARAGRAPHS.map((para, i) => (
+              <div
+                key={i}
+                className="rounded-2xl p-6"
+                style={{
+                  background: 'rgba(20,10,5,0.65)',
+                  backdropFilter: 'blur(14px)',
+                  border: '1px solid rgba(201,168,76,0.15)',
+                }}
+              >
+                <i
+                  className="ri-double-quotes-l text-gold/40 block mb-3"
+                  style={{ fontSize: '1.6rem' }}
+                />
+                <p className="font-serif text-cream/90 text-sm md:text-base leading-relaxed">
+                  {para}
+                </p>
+              </div>
+            ))}
           </div>
 
         </div>
