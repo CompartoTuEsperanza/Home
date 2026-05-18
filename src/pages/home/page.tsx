@@ -5,6 +5,7 @@ import AndeanBasketToast from './components/AndeanBasketToast';
 import Hero from './components/Hero';
 import Manifesto from './components/Manifesto';
 import MisionSection from './components/MisionSection';
+import VisionSection from './components/VisionSection';
 // import Products from './components/Products';
 // import ImpactSlider from './components/ImpactSlider';
 // import Reviews from './components/Reviews';
@@ -69,6 +70,7 @@ const HomePage = () => {
       <Farmers />
       <Manifesto />
       <MisionSection />
+      <VisionSection />
       {/* <ImpactSlider /> */}
       {/* <Products onAddToCart={handleAddToCart} /> */}
        {/* <Reviews /> */}
