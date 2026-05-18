@@ -70,16 +70,9 @@ const VisionSection = () => {
         muted
         loop
         playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         src="/Home/videos/fondos3.mp4"
-      />
-      {/* Overlay vino oscuro */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'linear-gradient(160deg, rgba(63,13,23,0.55) 0%, rgba(20,8,4,0.65) 60%, rgba(63,13,23,0.5) 100%)',
-        }}
-      />
+      
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-5 gap-10 items-center">
