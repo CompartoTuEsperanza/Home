@@ -61,7 +61,7 @@ const ProcessSection = () => {
             className="text-4xl md:text-5xl"
             style={{ fontFamily: "'Playfair Display', serif", color: '#F5E6D3', fontWeight: 900 }}
           >
-            {t('process_title')} <em style={{ color: '#7A1D2E', fontStyle: 'italic' }}>{t('process_title_highlight')}</em>
+            {t('process_title')} <em style={{ color: '#7A1D2E', fontStyle: 'italic', filter: 'drop-shadow(0 0 14px rgba(255,255,255,0.85)) drop-shadow(0 0 28px rgba(255,255,255,0.45)) drop-shadow(0 2px 6px rgba(0,0,0,0.55))', WebkitTextStroke: '0.4px #7A1D2E', fontWeight: 950 }}>{t('process_title_highlight')}</em>
           </h2>
         </div>
 
@@ -100,8 +100,8 @@ const ProcessSection = () => {
                       ? '2px solid rgba(122,29,46,0.95)'
                       : '2px solid rgba(122,29,46,0.2)',
                     boxShadow: isActive
-                      ? '0 0 32px rgba(122,29,46,0.45), 0 0 18px rgba(255,255,255,0.25), inset 0 0 0 1px rgba(122,29,46,0.25)'
-                      : 'none',
+                      ? '0 0 32px rgba(122,29,46,0.55), 0 0 22px rgba(255,255,255,0.55), 0 0 50px rgba(255,255,255,0.25), inset 0 0 0 1px rgba(122,29,46,0.3)'
+                      : '0 0 14px rgba(255,255,255,0.18)',
                     background: '#1C1008',
                   }}
                 >
