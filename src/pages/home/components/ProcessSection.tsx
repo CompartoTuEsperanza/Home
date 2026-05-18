@@ -51,17 +51,17 @@ const ProcessSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <span className="w-10 h-px" style={{ background: '#c9a96e' }} />
-            <span className="text-xs tracking-[0.35em] uppercase" style={{ color: '#c9a96e', fontFamily: "'Playfair Display', serif", fontWeight: 700 }}>
+            <span className="w-10 h-px" style={{ background: '#7A1D2E' }} />
+            <span className="text-xs tracking-[0.35em] uppercase" style={{ color: '#7A1D2E', fontFamily: "'Playfair Display', serif", fontWeight: 700 }}>
               {t('process_eyebrow')}
             </span>
-            <span className="w-10 h-px" style={{ background: '#c9a96e' }} />
+            <span className="w-10 h-px" style={{ background: '#7A1D2E' }} />
           </div>
           <h2
             className="text-4xl md:text-5xl"
             style={{ fontFamily: "'Playfair Display', serif", color: '#F5E6D3', fontWeight: 900 }}
           >
-            {t('process_title')} <em style={{ color: '#c9a96e', fontStyle: 'italic' }}>{t('process_title_highlight')}</em>
+            {t('process_title')} <em style={{ color: '#7A1D2E', fontStyle: 'italic' }}>{t('process_title_highlight')}</em>
           </h2>
         </div>
 
@@ -73,11 +73,11 @@ const ProcessSection = () => {
             onClick={prev}
             className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer transition-all duration-200 hover:scale-110 mr-4"
             style={{
-              background: 'rgba(201,169,110,0.15)',
-              border: '1.5px solid rgba(201,169,110,0.5)',
+              background: 'rgba(122,29,46,0.15)',
+              border: '1.5px solid rgba(122,29,46,0.5)',
             }}
           >
-            <i className="ri-arrow-left-s-line text-xl" style={{ color: '#c9a96e' }} />
+            <i className="ri-arrow-left-s-line text-xl" style={{ color: '#7A1D2E' }} />
           </button>
 
           {/* Cards */}
@@ -97,10 +97,10 @@ const ProcessSection = () => {
                     height: isActive ? '340px' : dist === 1 ? '230px' : '185px',
                     opacity,
                     border: isActive
-                      ? '2px solid rgba(201,169,110,0.9)'
-                      : '2px solid rgba(201,169,110,0.2)',
+                      ? '2px solid rgba(122,29,46,0.95)'
+                      : '2px solid rgba(122,29,46,0.2)',
                     boxShadow: isActive
-                      ? '0 0 32px rgba(201,169,110,0.25), inset 0 0 0 1px rgba(201,169,110,0.15)'
+                      ? '0 0 32px rgba(122,29,46,0.45), 0 0 18px rgba(255,255,255,0.25), inset 0 0 0 1px rgba(122,29,46,0.25)'
                       : 'none',
                     background: '#1C1008',
                   }}
@@ -126,7 +126,7 @@ const ProcessSection = () => {
                   {/* Step number badge */}
                   <div
                     className="absolute top-3 right-3 w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold z-10"
-                    style={{ background: '#7A1D2E', color: '#fff8f0' }}
+                    style={{ background: 'linear-gradient(135deg, #3F0D17 0%, #7A1D2E 50%, #3F0D17 100%)', color: '#fff8f0', boxShadow: '0 0 10px rgba(255,255,255,0.4)' }}
                   >
                     {i + 1}
                   </div>
@@ -136,8 +136,8 @@ const ProcessSection = () => {
                     <div
                       className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] w-20 h-20 rounded-full overflow-hidden z-10"
                       style={{
-                        border: '2.5px solid rgba(201,169,110,0.85)',
-                        boxShadow: '0 0 20px rgba(201,169,110,0.4)',
+                        border: '2.5px solid rgba(122,29,46,0.85)',
+                        boxShadow: '0 0 20px rgba(122,29,46,0.55), 0 0 14px rgba(255,255,255,0.35)',
                       }}
                     >
                       <img
@@ -153,11 +153,11 @@ const ProcessSection = () => {
                     <div
                       className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full z-10"
                       style={{
-                        background: 'rgba(201,169,110,0.12)',
-                        border: '1.5px solid rgba(201,169,110,0.45)',
+                        background: 'rgba(122,29,46,0.12)',
+                        border: '1.5px solid rgba(122,29,46,0.45)',
                       }}
                     >
-                      <i className={`${STEP_ICONS[i]} text-xl`} style={{ color: '#c9a96e' }} />
+                      <i className={`${STEP_ICONS[i]} text-xl`} style={{ color: '#7A1D2E' }} />
                     </div>
                   )}
 
@@ -186,9 +186,9 @@ const ProcessSection = () => {
                               key={tag}
                               className="text-[9px] tracking-widest uppercase px-2.5 py-0.5 rounded-full"
                               style={{
-                                background: 'rgba(201,169,110,0.15)',
-                                border: '1px solid rgba(201,169,110,0.45)',
-                                color: '#c9a96e',
+                                background: 'rgba(122,29,46,0.15)',
+                                border: '1px solid rgba(122,29,46,0.45)',
+                                color: '#7A1D2E',
                                 fontFamily: "'Playfair Display', serif",
                                 fontWeight: 700,
                               }}
@@ -210,11 +210,11 @@ const ProcessSection = () => {
             onClick={next}
             className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer transition-all duration-200 hover:scale-110 ml-4"
             style={{
-              background: 'rgba(201,169,110,0.15)',
-              border: '1.5px solid rgba(201,169,110,0.5)',
+              background: 'rgba(122,29,46,0.15)',
+              border: '1.5px solid rgba(122,29,46,0.5)',
             }}
           >
-            <i className="ri-arrow-right-s-line text-xl" style={{ color: '#c9a96e' }} />
+            <i className="ri-arrow-right-s-line text-xl" style={{ color: '#7A1D2E' }} />
           </button>
         </div>
 
@@ -228,7 +228,7 @@ const ProcessSection = () => {
               style={{
                 width: i === active ? '24px' : '7px',
                 height: '7px',
-                background: i === active ? '#7A1D2E' : 'rgba(201,169,110,0.3)',
+                background: i === active ? 'linear-gradient(135deg, #3F0D17, #7A1D2E, #3F0D17)' : 'rgba(122,29,46,0.3)',
               }}
             />
           ))}
@@ -245,17 +245,17 @@ const ProcessSection = () => {
               />
               <div
                 className="absolute inset-0 rounded-2xl pointer-events-none"
-                style={{ boxShadow: 'inset 0 0 0 1.5px rgba(201,169,110,0.4)' }}
+                style={{ boxShadow: 'inset 0 0 0 1.5px rgba(122,29,46,0.4)' }}
               />
               <div className="relative z-10 h-full flex flex-col justify-between p-5">
                 <div className="flex items-center gap-3">
                   <div
                     className="w-9 h-9 flex items-center justify-center rounded-full flex-shrink-0"
-                    style={{ background: 'rgba(201,169,110,0.2)', border: '1px solid rgba(201,169,110,0.5)' }}
+                    style={{ background: 'rgba(122,29,46,0.2)', border: '1px solid rgba(122,29,46,0.5)' }}
                   >
-                    <i className={`${STEP_ICONS[i]} text-sm`} style={{ color: '#c9a96e' }} />
+                    <i className={`${STEP_ICONS[i]} text-sm`} style={{ color: '#7A1D2E' }} />
                   </div>
-                  <span className="text-[10px] tracking-[0.3em] uppercase" style={{ color: '#c9a96e', fontFamily: "'Playfair Display', serif", fontWeight: 800 }}>
+                  <span className="text-[10px] tracking-[0.3em] uppercase" style={{ color: '#7A1D2E', fontFamily: "'Playfair Display', serif", fontWeight: 800 }}>
                     {t('process_step_label', { n: step.n })}
                   </span>
                 </div>
