@@ -170,14 +170,9 @@ const Farmers = () => {
 
               <div className="absolute inset-0 bg-gradient-to-t from-coffee-900 via-coffee-900/10 to-transparent z-10" />
 
-              <div className="absolute top-4 left-4 z-30">
-                <span className="flex items-center gap-1.5 bg-coffee-900/80 border border-gold/40 text-gold text-[10px] tracking-widest uppercase font-sans font-semibold px-3 py-1.5 rounded-full backdrop-blur-sm">
-                  <i className={f.tagIcon} style={{ fontSize: '11px' }} />
-                  {f.tag}
-                </span>
-              </div>
 
-              <div className="absolute top-1/2 right-4 z-30 flex flex-col items-end gap-2" style={{ transform: 'translateY(-50%)' }}>
+
+              <div className="absolute top-4 left-4 z-30 flex flex-col items-start gap-2">
                 {/* Badge principal: años cultivando */}
                 <div
                   className="relative overflow-hidden inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-sans font-bold"
