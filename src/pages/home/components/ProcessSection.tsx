@@ -36,14 +36,14 @@ const ProcessSection = () => {
           backgroundImage: "url('/Home/images/products-bg.jpeg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: 0.38,
+          opacity: 0.65,
         }}
       />
       {/* Dark overlay */}
       <div
         className="absolute inset-0 z-0"
         style={{
-          background: 'linear-gradient(160deg, rgba(30,16,4,0.72) 0%, rgba(90,50,10,0.45) 50%, rgba(25,12,2,0.70) 100%)',
+          background: 'linear-gradient(160deg, rgba(30,16,4,0.45) 0%, rgba(90,50,10,0.25) 50%, rgba(25,12,2,0.45) 100%)',
         }}
       />
 
