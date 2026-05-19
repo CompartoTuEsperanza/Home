@@ -33,7 +33,7 @@ const ProcessSection = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/Home/images/products-bg.jpeg')",
+          backgroundImage: "url('/Home/images/hero6.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.65,
@@ -51,17 +51,17 @@ const ProcessSection = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <span className="w-10 h-px" style={{ background: '#7A1D2E' }} />
-            <span className="text-xs tracking-[0.35em] uppercase" style={{ color: '#7A1D2E', fontFamily: "'Playfair Display', serif", fontWeight: 700 }}>
+            <span className="w-10 h-px" style={{ background: '#A3D977' }} />
+            <span className="text-sm tracking-[0.35em] uppercase" style={{ color: '#A3D977', fontFamily: "'Playfair Display', serif", fontWeight: 900, filter: 'drop-shadow(0 1px 4px rgba(0,0,0,0.6))' }}>
               {t('process_eyebrow')}
             </span>
-            <span className="w-10 h-px" style={{ background: '#7A1D2E' }} />
+            <span className="w-10 h-px" style={{ background: '#A3D977' }} />
           </div>
           <h2
             className="text-4xl md:text-5xl"
             style={{ fontFamily: "'Playfair Display', serif", color: '#F5E6D3', fontWeight: 900 }}
           >
-            {t('process_title')} <em style={{ color: '#7A1D2E', fontStyle: 'italic', filter: 'drop-shadow(0 0 14px rgba(255,255,255,0.85)) drop-shadow(0 0 28px rgba(255,255,255,0.45)) drop-shadow(0 2px 6px rgba(0,0,0,0.55))', WebkitTextStroke: '0.4px #7A1D2E', fontWeight: 950 }}>{t('process_title_highlight')}</em>
+            {t('process_title')} <em style={{ color: '#C9A84C', fontStyle: 'italic', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.6))', WebkitTextStroke: '0.4px #C9A84C', fontWeight: 950 }}>{t('process_title_highlight')}</em>
           </h2>
         </div>
 
@@ -184,13 +184,14 @@ const ProcessSection = () => {
                           {step.tags.map((tag) => (
                             <span
                               key={tag}
-                              className="text-[9px] tracking-widest uppercase px-2.5 py-0.5 rounded-full"
+                              className="text-[10px] tracking-widest uppercase px-3 py-1 rounded-full"
                               style={{
-                                background: 'rgba(122,29,46,0.15)',
-                                border: '1px solid rgba(122,29,46,0.45)',
-                                color: '#7A1D2E',
+                                background: 'rgba(20,12,2,0.75)',
+                                border: '1px solid rgba(201,168,76,0.6)',
+                                color: '#C9A84C',
                                 fontFamily: "'Playfair Display', serif",
-                                fontWeight: 700,
+                                fontWeight: 800,
+                                boxShadow: '0 2px 8px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(201,168,76,0.15)',
                               }}
                             >
                               {tag}
