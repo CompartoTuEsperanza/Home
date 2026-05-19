@@ -33,7 +33,7 @@ const ProcessSection = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/Home/images/hero6.jpg')",
+          backgroundImage: "url('/Home/images/fondos.jpeg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.65,
