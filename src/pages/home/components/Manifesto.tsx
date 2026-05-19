@@ -137,7 +137,7 @@ const Manifesto = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-cream leading-tight mb-8" style={{ fontWeight: 800 }}>
             {t('manifesto_title').split('\n').map((line, i, arr) => (
               i === arr.length - 1
-                ? <span key={i}>{line} <em style={{ fontStyle: 'italic', color: '#7A1D2E', WebkitTextStroke: '0.3px #7A1D2E', filter: 'drop-shadow(0 0 6px rgba(122,29,46,0.4))' }}>{t('manifesto_title_highlight')}</em></span>
+                ? <span key={i}>{line} <em style={{ fontStyle: 'italic', color: '#D4A843', WebkitTextStroke: '0.3px #D4A843', filter: 'drop-shadow(0 0 12px rgba(212,168,67,0.5))' }}>{t('manifesto_title_highlight')}</em></span>
                 : <span key={i}>{line}<br /></span>
             ))}
           </h2>
@@ -187,8 +187,9 @@ const Manifesto = () => {
                         style={{
                           fontSize: 'clamp(1.6rem, 3.5vw, 2.4rem)',
                           letterSpacing: '-0.01em',
-                          color: '#5C1422',
-                          WebkitTextStroke: '0.4px #5C1422',
+                          color: '#D4A843',
+                          WebkitTextStroke: '0.3px #D4A843',
+                          textShadow: '0 0 30px rgba(212,168,67,0.4)',
                           filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.6))',
                         }}
                       >
