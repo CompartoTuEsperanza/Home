@@ -189,10 +189,15 @@ const MisionSection = () => {
               transform: visible ? 'translateX(0)' : 'translateX(40px)',
             }}
           >
-            {/* Frase tagline */}
+            {/* Frase tagline — alineada al título izquierdo */}
             <p
-              className="font-serif text-3xl md:text-4xl italic font-black leading-snug"
-              style={{ color: '#7A1D2E', textShadow: '0 1px 4px rgba(0,0,0,0.3)' }}
+              className="font-serif italic font-black leading-snug"
+              style={{
+                color: '#C9A84C',
+                fontSize: 'clamp(1.4rem, 2.8vw, 2.6rem)',
+                textShadow: '0 1px 6px rgba(0,0,0,0.4)',
+                marginTop: '-8rem',
+              }}
             >
               {t('mision_tagline')}
             </p>
