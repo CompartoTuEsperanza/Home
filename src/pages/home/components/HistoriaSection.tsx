@@ -109,12 +109,6 @@ const HistoriaSection = () => {
   const cards3: string[] = t('historia_cards3', { returnObjects: true }) as string[];
   const pressLabel: string = t('historia_press');
 
-  const fadeIn = (delay = 0): React.CSSProperties => ({
-    opacity: visible ? 1 : 0,
-    transform: visible ? 'translateX(0)' : 'translateX(-30px)',
-    transition: `opacity 0.7s ease ${delay}s, transform 0.7s ease ${delay}s`,
-  });
-
   return (
     <section id="historia" ref={sectionRef} className="relative w-full overflow-hidden" style={{ minHeight: '600px' }}>
 
@@ -125,7 +119,7 @@ const HistoriaSection = () => {
         <source src="/Home/videos/video4.mp4" type="video/mp4" />
       </video>
 
-      {/* Overlay más ligero */}
+      {/* Overlay */}
       <div className="absolute inset-0 pointer-events-none" style={{
         background: 'linear-gradient(160deg,rgba(15,5,2,0.38) 0%,rgba(8,3,1,0.44) 60%,rgba(15,5,2,0.36) 100%)',
         zIndex: 1,
@@ -134,8 +128,12 @@ const HistoriaSection = () => {
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-16 py-16" style={{ zIndex: 2 }}>
         <div className="grid lg:grid-cols-2 gap-10 items-start">
 
-          {/* ── LEFT: todo el texto ── */}
-          <div style={fadeIn(0)}>
+          {/* ── LEFT: texto ── */}
+          <div style={{
+            opacity: visible ? 1 : 0,
+            transform: visible ? 'translateX(0)' : 'translateX(-30px)',
+            transition: 'opacity 0.7s ease, transform 0.7s ease',
+          }}>
             <p style={{ color: '#C9A84C', fontSize: '0.68rem', letterSpacing: '0.4em', textTransform: 'uppercase', fontFamily: 'sans-serif', marginBottom: '0.7rem' }}>
               {t('historia_eyebrow')}
             </p>
@@ -148,34 +146,34 @@ const HistoriaSection = () => {
             </h2>
             <div style={{ height: '2px', width: '60px', background: 'linear-gradient(90deg,#7A1D2E,transparent)', marginBottom: '1.2rem' }} />
 
-            {/* Bloque 1: historia */}
+            {/* Bloque 1 */}
             <Carrusel cards={cards1} pressLabel={pressLabel} />
 
-            {/* COMPARTO y SALKANTAY lado a lado */}
-            <div className="grid grid-cols-2 gap-4" style={{ marginTop: '1.4rem' }}>
-              {/* COMPARTO */}
-              <div>
-                <GoldenTitle text="COMPARTO TU ESPERANZA" />
-                <Carrusel cards={cards2} pressLabel={pressLabel} />
-              </div>
-              {/* SALKANTAY */}
-              <div>
-                <GoldenTitle text="SALKANTAY ANDINO" />
-                <Carrusel cards={cards3} pressLabel={pressLabel} />
-              </div>
-            </div>
+            {/* COMPARTO TU ESPERANZA */}
+            <GoldenTitle text="COMPARTO TU ESPERANZA" />
+            <Carrusel cards={cards2} pressLabel={pressLabel} />
           </div>
 
-          {/* ── RIGHT: imagen sticky ── */}
-          <div style={{ ...fadeIn(0.2), position: 'sticky', top: '6rem' }}>
+          {/* ── RIGHT: imagen arriba + SALKANTAY abajo ── */}
+          <div style={{
+            opacity: visible ? 1 : 0,
+            transform: visible ? 'translateX(0)' : 'translateX(30px)',
+            transition: 'opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s',
+          }}>
+            {/* Imagen */}
             <div style={{
               borderRadius: '1.25rem', overflow: 'hidden',
               border: '1px solid rgba(201,168,76,0.2)',
               boxShadow: '0 8px 40px rgba(0,0,0,0.5)',
+              marginBottom: '0',
             }}>
               <img src="/Home/images/fondito.png" alt="La historia detrás del sueño"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', maxHeight: '680px' }} />
+                style={{ width: '100%', objectFit: 'cover', display: 'block', maxHeight: '420px' }} />
             </div>
+
+            {/* SALKANTAY ANDINO debajo de la imagen */}
+            <GoldenTitle text="SALKANTAY ANDINO" />
+            <Carrusel cards={cards3} pressLabel={pressLabel} />
           </div>
 
         </div>
