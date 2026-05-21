@@ -8,7 +8,7 @@ const cs = {
 
   // Hero
   hero_eyebrow: "Chuncho Organic Organic Kakao · Cusco · Peru",
-  hero_subtitle: "Toto není jen Chuncho Organic Organic kakao.\nJe to slib:\nuž nikdy nebudou zapomenuti.",
+  hero_subtitle: "Toto není jen Chuncho kakao.\nJe to slib:\nuž nikdy nebudou zapomenuti.",
   hero_desc: "Chuncho Organic kakao z Cusca. Sklizeno rodinami, které znovu uvěřily, a přeměněno v zrna čisté naděje. Z naší pobočky v České republice otevíráme náruč Evropě, abychom doručili tento suchý poklad a zajistili, že každý kout kontinentu obdrží jejich jména, jejich boj a jejich příběhy neporušené.",
   hero_cta_primary: 'VYTVOŘIT DOPAD',
   hero_cta_secondary: 'Naši farmáři',
@@ -374,6 +374,7 @@ const cs = {
   nav_vision: "Vize",
   nav_farmers: "Farmáři",
   nav_process: "Proces",
+  historia_press: "Stiskni šipku pro čtení dál",
 };
 
 export default cs;

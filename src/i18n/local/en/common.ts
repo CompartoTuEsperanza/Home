@@ -8,7 +8,7 @@ const en = {
 
   // Hero
   hero_eyebrow: "Chuncho Organic Organic Cacao · Cusco · Peru",
-  hero_subtitle: "This is not just Chuncho Organic Organic Cacao.\nIt is a promise:\nthey will never be forgotten.",
+  hero_subtitle: "This is not just Chuncho Cacao.\nIt is a promise:\nthey will never be forgotten.",
   hero_desc: "Chuncho Organic Organic Chuncho Organic Cacao from Cusco. Harvested by families who chose to believe again and transformed into grains of pure hope. From our branch in the Czech Republic, we open our arms to Europe to deliver this dry treasure, ensuring every corner of the continent receives their names, their struggle and their stories intact.",
   hero_cta_primary: 'MAKE AN IMPACT',
   hero_cta_secondary: 'Our Farmers',
@@ -374,6 +374,7 @@ const en = {
   nav_vision: "Vision",
   nav_farmers: "Farmers",
   nav_process: "Process",
+  historia_press: "Press an arrow to keep reading",
 };
 
 export default en;

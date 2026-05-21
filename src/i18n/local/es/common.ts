@@ -8,7 +8,7 @@ const es = {
 
   // Hero
   hero_eyebrow: "Cacao Chuncho Orgánico · Cusco · Perú",
-  hero_subtitle: "Esto no es solo Cacao Chuncho Orgánico.\nEs la promesa\nde que nunca más serán olvidados.",
+  hero_subtitle: "Esto no es solo Cacao Chuncho.\nEs la promesa\nde que nunca más serán olvidados.",
   hero_desc: "Cacao Chuncho Orgánico de Cusco. Cosechado por familias que volvieron a creer y transformado en granos de pura esperanza. Desde nuestra sucursal en la República Checa, abrimos los brazos a Europa para entregar este tesoro seco, asegurando que cada rincón del continente reciba sus nombres, su lucha y sus historias intactas.",
   hero_cta_primary: 'GENERAR IMPACTO',
   hero_cta_secondary: 'Nuestros Productores',
@@ -383,6 +383,7 @@ const es = {
   nav_vision: "Visión",
   nav_farmers: "Productores",
   nav_process: "Proceso",
+  historia_press: "Presiona una flecha para seguir leyendo",
 };
 
 export default es;
