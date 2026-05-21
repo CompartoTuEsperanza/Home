@@ -368,6 +368,12 @@ const cs = {
     "Hluboce věřím v tento projekt. Věřím v rodiny. Věřím v zemědělce. Věřím v talent v našich komunitách. A věřím v tuto vizi natolik, že do ní investuji všechny své celoživotní úspory. Protože to nevidím jako další podnikání. Vidím to jako příležitost transformovat životy, otevírat cesty a uskutečňovat sny, které se po mnoho let zdály nemožné.",
     "Sním o tom, vidět naše producenty mezinárodně uznávané. Sním o tom, aby svět poznal mimořádnou kvalitu peruánského Chuncho Organic kakaa a především lidské příběhy za každým produktem. Protože nejde o lítost. Jde o důstojnost. NGO pečuje o rodiny. Společnost pečuje o jejich práci a ekonomickou budoucnost. Jedna chrání srdce lidí. Druhá otevírá dveře, aby mohli růst s nezávislostí, hrdostí a skutečnými příležitostmi. Protože nakonec můj sen nebyl jen exportovat produkty. Můj sen byl vždy měnit životy. A dnes to chci dělat společně s vámi."
   ],
+  nav_about: "O nás",
+  nav_historia: "Náš příběh",
+  nav_mision: "Mise",
+  nav_vision: "Vize",
+  nav_farmers: "Farmáři",
+  nav_process: "Proces",
 };
 
 export default cs;

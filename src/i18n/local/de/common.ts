@@ -368,6 +368,12 @@ const de = {
     "Ich glaube tief an dieses Projekt. Ich glaube an Familien. Ich glaube an Bauern. Ich glaube an das Talent in unseren Gemeinschaften. Und ich glaube so sehr an diese Vision, dass ich all meine Ersparnisse investiere. Weil ich es nicht als weiteres Unternehmen sehe. Ich sehe es als Chance, Leben zu verändern, Wege zu öffnen und Träume wahr werden zu lassen, die jahrelang unmöglich schienen.",
     "Ich träume davon, unsere Produzenten international anerkannt zu sehen. Ich träume davon, dass die Welt die außergewöhnliche Qualität des peruanischen Chuncho Organic Kakao kennt und vor allem die menschlichen Geschichten hinter jedem Produkt. Denn es geht nicht um Mitleid. Es geht um Würde. Die NGO kümmert sich um Familien. Das Unternehmen kümmert sich um ihre Arbeit und wirtschaftliche Zukunft. Eine schützt die Herzen der Menschen. Die andere öffnet Türen, damit sie mit Unabhängigkeit, Stolz und echten Chancen wachsen können. Denn letztendlich war mein Traum nie nur Produkte zu exportieren. Mein Traum war immer, Leben zu verändern. Und heute möchte ich es gemeinsam mit euch tun."
   ],
+  nav_about: "Über uns",
+  nav_historia: "Geschichte",
+  nav_mision: "Mission",
+  nav_vision: "Vision",
+  nav_farmers: "Bauern",
+  nav_process: "Prozess",
 };
 
 export default de;

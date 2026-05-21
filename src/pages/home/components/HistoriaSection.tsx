@@ -123,7 +123,7 @@ const HistoriaSection = () => {
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         style={{ zIndex: 0 }}
       >
-        <source src="/Home/images/video4.mp4" type="video/mp4" />
+        <source src="/Home/videos/video4.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay oscuro */}

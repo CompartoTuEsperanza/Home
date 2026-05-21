@@ -368,6 +368,12 @@ const en = {
     "I deeply believe in this project. I believe in families. I believe in farmers. I believe in the talent that exists in our communities. And I believe so much in this vision that I am investing all my life savings in it. Because I do not see it as just another business. I see it as an opportunity to transform lives, open paths and make dreams come true that for many years seemed impossible.",
     "I dream of seeing our producers recognized internationally. I dream of the world knowing the extraordinary quality of Peruvian Chuncho Organic Cacao and, above all, the human stories that exist behind each product. Because this is not about pity. It is about dignity. The NGO takes care of families. The company takes care of their work and economic future. One protects the hearts of people. The other opens the doors so they can grow with independence, pride and real opportunities. Because in the end, my dream was never simply to export products. My dream has always been to change lives. And today I want to do it together with you."
   ],
+  nav_about: "About Us",
+  nav_historia: "Our Story",
+  nav_mision: "Mission",
+  nav_vision: "Vision",
+  nav_farmers: "Farmers",
+  nav_process: "Process",
 };
 
 export default en;

@@ -377,6 +377,12 @@ const es = {
     "Yo creo profundamente en este proyecto. Creo en las familias. Creo en los agricultores. Creo en el talento que existe en nuestras comunidades. Y creo tanto en esta visión, que estoy invirtiendo en ella todos los ahorros de mi vida. Porque no lo veo como un negocio más. Lo veo como una oportunidad de transformar vidas, abrir caminos y hacer realidad sueños que durante muchos años parecían imposibles.",
     "Sueño con ver a nuestros productores reconocidos internacionalmente. Sueño con que el mundo conozca la calidad extraordinaria del Cacao Chuncho Orgánico peruano y, sobre todo, las historias humanas que existen detrás de cada producto. Porque esto no se trata de lástima. Se trata de dignidad. La ONG cuida a las familias. La empresa cuida su trabajo y su futuro económico. Una protege el corazón de las personas. La otra abre las puertas para que puedan crecer con independencia, orgullo y oportunidades reales. Porque al final, mi sueño nunca fue simplemente exportar productos. Mi sueño siempre fue cambiar vidas. Y hoy quiero hacerlo junto a ustedes."
   ],
+  nav_about: "Nosotros",
+  nav_historia: "Historia",
+  nav_mision: "Misión",
+  nav_vision: "Visión",
+  nav_farmers: "Productores",
+  nav_process: "Proceso",
 };
 
 export default es;
