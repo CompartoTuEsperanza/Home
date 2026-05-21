@@ -45,7 +45,7 @@ const en = {
 
   // Farmers
   farmers_eyebrow: 'Behind every bean',
-  farmers_title: 'Our Farmers',
+  farmers_title: 'Families that cultivate hope',
   farmers_desc: 'Real people with stories of struggle, resilience, and purpose. Every cup carries their name.',
   farmers_see_story: 'See story',
   farmers_tap_close: 'Tap to close',
@@ -296,7 +296,7 @@ const en = {
   
   // ── HOME SECTIONS ────────────────────────────────────
   emp_farmers_eyebrow: 'Our Producers',
-  emp_farmers_title: 'Meet the producers',
+  emp_farmers_title: 'Families that cultivate hope',
   emp_farmers_desc: 'Real families with names, stories and verifiable GPS coordinates.',
   emp_farmers_qr_title: 'QR Traceability',
   emp_farmers_qr_desc: 'Each lot includes a QR showing the producer\'s story and process.',

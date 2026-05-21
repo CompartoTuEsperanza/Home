@@ -45,7 +45,7 @@ const es = {
 
   // Farmers
   farmers_eyebrow: 'Detrás de cada grano',
-  farmers_title: 'Nuestros Productores',
+  farmers_title: 'Familias que cultivan esperanza',
   farmers_desc: 'Personas reales con historias de lucha, resiliencia y propósito. Cada taza lleva su nombre.',
   farmers_see_story: 'Ver historia',
   farmers_tap_close: 'Toca para cerrar',
@@ -305,7 +305,7 @@ const es = {
 
   // ── HOME SECTIONS ────────────────────────────────────
   emp_farmers_eyebrow: 'Nuestros Productores',
-  emp_farmers_title: 'Conoce a los productores',
+  emp_farmers_title: 'Familias que cultivan esperanza',
   emp_farmers_desc: 'Familias reales con nombres, historias y coordenadas GPS verificables.',
   emp_farmers_qr_title: 'Trazabilidad con QR',
   emp_farmers_qr_desc: 'Cada lote incluye un QR que muestra la historia del productor y el proceso.',

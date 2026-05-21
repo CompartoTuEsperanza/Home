@@ -118,9 +118,9 @@ const Farmers = () => {
 
         {/* Header */}
         <div className="text-center mb-10">
-          <p className="text-gold text-xs tracking-[0.4em] uppercase font-sans font-bold mb-3" style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.5))' }}>{t('farmers_eyebrow')}</p>
-          <h2 className="font-serif text-3xl md:text-4xl text-cream" style={{ fontWeight: 900, letterSpacing: '0.01em' }}>{t('farmers_title')}</h2>
-          <p className="text-cream/50 text-sm mt-2 max-w-md mx-auto leading-relaxed" style={{ fontFamily: "'Playfair Display', serif", fontWeight: 500 }}>
+          <p className="text-gold text-xs tracking-[0.4em] uppercase font-serif font-black mb-3">{t('farmers_eyebrow')}</p>
+          <h2 className="font-serif text-3xl md:text-4xl text-cream font-black mb-2">{t('farmers_title')}</h2>
+          <p className="text-cream/70 font-serif text-sm mt-2 max-w-md mx-auto leading-relaxed">
             {t('farmers_desc')}
           </p>
         </div>

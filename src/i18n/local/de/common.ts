@@ -45,7 +45,7 @@ const de = {
 
   // Farmers
   farmers_eyebrow: 'Hinter jedem Korn',
-  farmers_title: 'Unsere Bauern',
+  farmers_title: 'Familien, die Hoffnung kultivieren',
   farmers_desc: 'Echte Menschen mit Geschichten von Kampf, Resilienz und Zweck. Jede Tasse trägt ihren Namen.',
   farmers_see_story: 'Geschichte sehen',
   farmers_tap_close: 'Tippen zum Schließen',
@@ -296,7 +296,7 @@ const de = {
   
   // ── HOME SECTIONS ────────────────────────────────────
   emp_farmers_eyebrow: 'Unsere Produzenten',
-  emp_farmers_title: 'Die Produzenten kennenlernen',
+  emp_farmers_title: 'Familien, die Hoffnung kultivieren',
   emp_farmers_desc: 'Echte Familien mit Namen, Geschichten und verifizierbaren GPS-Koordinaten.',
   emp_farmers_qr_title: 'QR-Rückverfolgbarkeit',
   emp_farmers_qr_desc: 'Jedes Los enthält einen QR der die Geschichte des Produzenten und den Prozess zeigt.',

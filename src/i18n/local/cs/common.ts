@@ -45,7 +45,7 @@ const cs = {
 
   // Farmers
   farmers_eyebrow: 'Za každým zrnem',
-  farmers_title: 'Naši farmáři',
+  farmers_title: 'Rodiny, které pěstují naději',
   farmers_desc: 'Skuteční lidé s příběhy boje, odolnosti a účelu. Každý šálek nese jejich jméno.',
   farmers_see_story: 'Zobrazit příběh',
   farmers_tap_close: 'Klepněte pro zavření',
@@ -296,7 +296,7 @@ const cs = {
   
   // ── HOME SECTIONS ────────────────────────────────────
   emp_farmers_eyebrow: 'Naši producenti',
-  emp_farmers_title: 'Poznejte producenty',
+  emp_farmers_title: 'Rodiny, které pěstují naději',
   emp_farmers_desc: 'Skutečné rodiny se jmény, příběhy a ověřitelnými GPS souřadnicemi.',
   emp_farmers_qr_title: 'QR sledovatelnost',
   emp_farmers_qr_desc: 'Každá šarže obsahuje QR kód zobrazující příběh producenta a proces.',
