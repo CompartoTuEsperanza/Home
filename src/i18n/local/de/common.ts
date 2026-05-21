@@ -8,7 +8,7 @@ const de = {
 
   // Hero
   hero_eyebrow: "Chuncho-Kakao Orgánico · Cusco · Peru",
-  hero_subtitle: "Das ist nicht nur Kakao.\nEs ist ein Versprechen:\nsie werden nie vergessen.",
+  hero_subtitle: "Das ist nicht nur Chuncho Organic Kakao.\nEs ist ein Versprechen:\nsie werden nie vergessen.",
   hero_desc: "Chuncho-Kakao Orgánico aus Cusco. Geerntet von Familien, die wieder zu glauben begannen, und in Körner reiner Hoffnung verwandelt. Von unserer Niederlassung in der Tschechischen Republik öffnen wir Europa die Arme, um diesen trockenen Schatz zu liefern und sicherzustellen, dass jeder Winkel des Kontinents ihre Namen, ihren Kampf und ihre Geschichten unversehrt erhält.",
   hero_cta_primary: 'WIRKUNG ERZIELEN',
   hero_cta_secondary: 'Unsere Bauern',
@@ -324,9 +324,9 @@ const de = {
   vision_card1_title: "Cusco international",
   vision_card1_body: "Den Kakao aus Cusco zum international anerkanntesten Massstab fur Qualitat und soziale Wirkung zu machen, damit jeder Produzent zum Protagonisten seines eigenen Erfolges wird und seine Geschichte in die Welt exportiert. Um dies zu erreichen, werden wir als die grosse Familie, die wir sind, gemeinsam die Anforderungen und Normen der Europaischen Union ubernehmen und sicherstellen, dass unser Chuncho-Kakao Orgánico im Ausland makellos und einzigartig ist.",
   vision_card2_title: "Unsere Sammelstelle",
-  vision_card2_body: "In dieser grossen, vereinten und bluhenden Familie werden wir gemeinsam unsere eigene Sammelstelle bauen, um eine uberlegene Fermentation und ein uberlegenes Aroma zu erzielen und zu beweisen, dass auf unserem Land der beste Kakao Perus produziert wird.",
+  vision_card2_body: "In dieser grossen, vereinten und bluhenden Familie werden wir gemeinsam unsere eigene Sammelstelle bauen, um eine uberlegene Fermentation und ein uberlegenes Aroma zu erzielen und zu beweisen, dass auf unserem Land der beste Chuncho Organic Kakao Perus produziert wird.",
   vision_card3_title: "Von der Bohne zur Schokolade",
-  vision_card3_body: "Wir werden unsere Horizonte erweitern, bis wir unseren Kakao in unsere eigene Schokolade verwandeln und so die Früchte dieses großen Projekts vervielfachen, in dem wir beide alles wagen und vom ersten Tag an unsere Zeit, unser Geld und unser gegenseitiges Vertrauen einsetzen. Wir werden der Motor sein, der das Leben in Cusco verändert und zeigt, dass die größten Träume wahr werden und das Wohlergehen für immer in jedem Zuhause bleibt, wenn eine Familie glaubt, füreinander einsteht und gemeinsam geht.",
+  vision_card3_body: "Wir werden unsere Horizonte erweitern, bis wir unseren Chuncho Organic Kakao in unsere eigene Schokolade verwandeln und so die Früchte dieses großen Projekts vervielfachen, in dem wir beide alles wagen und vom ersten Tag an unsere Zeit, unser Geld und unser gegenseitiges Vertrauen einsetzen. Wir werden der Motor sein, der das Leben in Cusco verändert und zeigt, dass die größten Träume wahr werden und das Wohlergehen für immer in jedem Zuhause bleibt, wenn eine Familie glaubt, füreinander einsteht und gemeinsam geht.",
   process_step1_title: "Anbau",
   process_step1_subtitle: "Nativer Hochlandkakao",
   process_step1_desc: "Nativer Chuncho-Kakao Orgánico, angebaut in Höhenlagen von 800-1200m in den Tälern von Cusco.",

@@ -178,7 +178,7 @@ export const products: Product[] = [
     overlayPrice: 'desde $7.70 / kg',
     detailTag: 'Chalaco · Morropón · Piura',
     detailName: 'Typica Natural',
-    notes: 'Cacao · Tabaco suave · Frutos secos',
+    notes: 'Cacao Chuncho Orgánico · Tabaco suave · Frutos secos',
     specs: [
       { label: 'Variedad', value: 'Typica' },
       { label: 'Proceso', value: 'Natural 12 días' },
@@ -261,7 +261,7 @@ export const processSteps = [
     n: '01',
     icon: 'ri-seedling-line',
     title: 'Cultivo',
-    subtitle: 'Cacao nativo de altura',
+    subtitle: 'Cacao Chuncho Orgánico nativo de altura',
     desc: 'Cacao Chuncho Orgánico nativo cultivado en altitudes de 800-1200m en los valles de Cusco.',
     tags: ['Cacao Chuncho Orgánico', '800-1200m'],
     image: '/Home/images/segundo-work.jpeg',

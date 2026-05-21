@@ -8,7 +8,7 @@ const es = {
 
   // Hero
   hero_eyebrow: "Cacao Chuncho Orgánico · Cusco · Perú",
-  hero_subtitle: "Esto no es solo cacao.\nEs la promesa\nde que nunca más serán olvidados.",
+  hero_subtitle: "Esto no es solo Cacao Chuncho Orgánico.\nEs la promesa\nde que nunca más serán olvidados.",
   hero_desc: "Cacao Chuncho Orgánico de Cusco. Cosechado por familias que volvieron a creer y transformado en granos de pura esperanza. Desde nuestra sucursal en la República Checa, abrimos los brazos a Europa para entregar este tesoro seco, asegurando que cada rincón del continente reciba sus nombres, su lucha y sus historias intactas.",
   hero_cta_primary: 'GENERAR IMPACTO',
   hero_cta_secondary: 'Nuestros Productores',
@@ -333,11 +333,11 @@ const es = {
   vision_card1_title: "Cusco Internacional",
   vision_card1_body: "Convertir al cacao de Cusco en el referente de calidad e impacto social más reconocido a nivel internacional, logrando que cada productor sea protagonista de su propio éxito y exporte su historia al mundo. Para lograrlo, como la gran familia que somos, adoptaremos juntos los cuidados y normas que la Unión Europea nos pide, garantizando que nuestro cacao Chuncho Orgánico sea impecable y único en el extranjero.",
   vision_card2_title: "Nuestro Centro de Acopio",
-  vision_card2_body: "En esta gran familia unida y próspera, construiremos juntos nuestro propio centro de acopio para lograr una fermentación y un aroma superiores que demuestren que en nuestra tierra se produce el mejor cacao del Perú.",
+  vision_card2_body: "En esta gran familia unida y próspera, construiremos juntos nuestro propio centro de acopio para lograr una fermentación y un aroma superiores que demuestren que en nuestra tierra se produce el mejor Cacao Chuncho Orgánico del Perú.",
   vision_card3_title: "Del Grano al Chocolate",
-  vision_card3_body: "Lograremos expandir nuestros horizontes hasta transformar nuestro cacao en chocolate propio, multiplicando los frutos de este gran proyecto donde ambos nos arriesgamos, apostando nuestro tiempo, dinero y confianza mutua desde el primer día. Seremos el motor que transformará la vida en Cusco, demostrando que cuando una familia cree, se la juega el uno por el otro y camina unida, los sueños más grandes se hacen realidad y el bienestar llega para quedarse para siempre en cada hogar.",
+  vision_card3_body: "Lograremos expandir nuestros horizontes hasta transformar nuestro Cacao Chuncho Orgánico en chocolate propio, multiplicando los frutos de este gran proyecto donde ambos nos arriesgamos, apostando nuestro tiempo, dinero y confianza mutua desde el primer día. Seremos el motor que transformará la vida en Cusco, demostrando que cuando una familia cree, se la juega el uno por el otro y camina unida, los sueños más grandes se hacen realidad y el bienestar llega para quedarse para siempre en cada hogar.",
   process_step1_title: "Cultivo",
-  process_step1_subtitle: "Cacao nativo de altura",
+  process_step1_subtitle: "Cacao Chuncho Orgánico nativo de altura",
   process_step1_desc: "Cacao Chuncho Orgánico nativo cultivado en altitudes de 800-1200m en los valles de Cusco.",
   process_step1_tag1: "Cacao Chuncho Orgánico",
   process_step1_tag2: "800-1200m",

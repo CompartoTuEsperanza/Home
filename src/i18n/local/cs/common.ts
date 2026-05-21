@@ -7,9 +7,9 @@ const cs = {
   nav_contact: 'Kontakt',
 
   // Hero
-  hero_eyebrow: "Chuncho kakao · Cusco · Peru",
-  hero_subtitle: "Toto není jen kakao.\nJe to slib:\nuž nikdy nebudou zapomenuti.",
-  hero_desc: "Chuncho kakao z Cusca. Sklizeno rodinami, které znovu uvěřily, a přeměněno v zrna čisté naděje. Z naší pobočky v České republice otevíráme náruč Evropě, abychom doručili tento suchý poklad a zajistili, že každý kout kontinentu obdrží jejich jména, jejich boj a jejich příběhy neporušené.",
+  hero_eyebrow: "Chuncho Organic Kakao · Cusco · Peru",
+  hero_subtitle: "Toto není jen Chuncho Organic kakao.\nJe to slib:\nuž nikdy nebudou zapomenuti.",
+  hero_desc: "Chuncho Organic kakao z Cusca. Sklizeno rodinami, které znovu uvěřily, a přeměněno v zrna čisté naděje. Z naší pobočky v České republice otevíráme náruč Evropě, abychom doručili tento suchý poklad a zajistili, že každý kout kontinentu obdrží jejich jména, jejich boj a jejich příběhy neporušené.",
   hero_cta_primary: 'VYTVOŘIT DOPAD',
   hero_cta_secondary: 'Naši farmáři',
 
@@ -95,7 +95,7 @@ const cs = {
   contact_cert_adoption: 'Certifikát adopce',
 
   // Footer
-  footer_tagline: "Kakao Chuncho z Cusco,\nPeru.",
+  footer_tagline: "Chuncho Organic Kakao z Cusco,\nPeru.",
   footer_products: 'Produkty',
   footer_company: "O nás",
   footer_philosophy: "Náš příběh",
@@ -324,13 +324,13 @@ const cs = {
   vision_card1_title: "Cusco ve světě",
   vision_card1_body: "Ucinit z kakaa z Cusco mezinarodne nejuznavaneji referenci kvality a socialniho dopadu, aby se kazdy producent stal hlavnim hrdinou sveho uspechu a vyvazel svuj pribeh do sveta. Abychom toho dosahli, jako velka rodina, kterou jsme, spolecne prijmeme pece a normy, ktere po nas pozaduje Evropska unie, a zarucime, ze nase kakao Chuncho Organic bude v zahranici bezchybne a jedinecne.",
   vision_card2_title: "Naše sběrné centrum",
-  vision_card2_body: "V teto velke, jednotne a prosperujici rodine spolecne vybudujeme nase vlastni sberne centrum, abychom dosahli vynikajici fermentace a aroma a dokazali, ze na nasi zemi se vyrabi nejlepsi kakao Peru.",
+  vision_card2_body: "V teto velke, jednotne a prosperujici rodine spolecne vybudujeme nase vlastni sberne centrum, abychom dosahli vynikajici fermentace a aroma a dokazali, ze na nasi zemi se vyrabi nejlepsi Chuncho Organic kakao Peru.",
   vision_card3_title: "Od zrna k čokoládě",
-  vision_card3_body: "Rozšíříme naše obzory, dokud neproměníme naše kakao ve vlastní čokoládu a znásobíme plody tohoto velkého projektu, ve kterém oba riskujeme a od prvního dne sázíme svůj čas, peníze a vzájemnou důvěru. Budeme motorem, který promění život v Cusco a ukáže, že když rodina věří, stojí jeden při druhém a kráčí společně, ty největší sny se stávají skutečností a blahobyt přichází, aby zůstal navždy v každém domově.",
+  vision_card3_body: "Rozšíříme naše obzory, dokud neproměníme naše Chuncho Organic kakao ve vlastní čokoládu a znásobíme plody tohoto velkého projektu, ve kterém oba riskujeme a od prvního dne sázíme svůj čas, peníze a vzájemnou důvěru. Budeme motorem, který promění život v Cusco a ukáže, že když rodina věří, stojí jeden při druhém a kráčí společně, ty největší sny se stávají skutečností a blahobyt přichází, aby zůstal navždy v každém domově.",
   process_step1_title: "Pěstování",
-  process_step1_subtitle: "Původní vysokohorské kakao",
+  process_step1_subtitle: "Původní vysokohorské Chuncho Organic Kakao",
   process_step1_desc: "Původní kakao Chuncho Organic pěstované ve výškách 800-1200m v údolích Cusco.",
-  process_step1_tag1: "Kakao Chuncho",
+  process_step1_tag1: "Chuncho Organic Kakao",
   process_step1_tag2: "800-1200m",
   process_step2_title: "Sklizeň",
   process_step2_subtitle: "Ručně sbírané",
