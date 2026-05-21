@@ -7,9 +7,9 @@ const de = {
   nav_contact: 'Kontakt',
 
   // Hero
-  hero_eyebrow: "Chuncho-Kakao · La Convención · Peru",
+  hero_eyebrow: "Chuncho-Kakao · Cusco · Peru",
   hero_subtitle: "Das ist nicht nur Kakao.\nEs ist ein Versprechen:\nsie werden nie vergessen.",
-  hero_desc: "Chuncho-Kakao aus Echarati, La Convención, Cusco. Geerntet von Familien, die wieder zu glauben begannen, und in Körner reiner Hoffnung verwandelt. Von unserer Niederlassung in der Tschechischen Republik öffnen wir Europa die Arme, um diesen trockenen Schatz zu liefern und sicherzustellen, dass jeder Winkel des Kontinents ihre Namen, ihren Kampf und ihre Geschichten unversehrt erhält.",
+  hero_desc: "Chuncho-Kakao aus Cusco. Geerntet von Familien, die wieder zu glauben begannen, und in Körner reiner Hoffnung verwandelt. Von unserer Niederlassung in der Tschechischen Republik öffnen wir Europa die Arme, um diesen trockenen Schatz zu liefern und sicherzustellen, dass jeder Winkel des Kontinents ihre Namen, ihren Kampf und ihre Geschichten unversehrt erhält.",
   hero_cta_primary: 'WIRKUNG ERZIELEN',
   hero_cta_secondary: 'Unsere Bauern',
 

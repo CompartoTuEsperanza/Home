@@ -7,9 +7,9 @@ const es = {
   nav_contact: 'Contacto',
 
   // Hero
-  hero_eyebrow: "Cacao Chuncho · La Convención · Perú",
+  hero_eyebrow: "Cacao Chuncho · Cusco · Perú",
   hero_subtitle: "Esto no es solo cacao.\nEs la promesa\nde que nunca más serán olvidados.",
-  hero_desc: "Cacao Chuncho de Echarati, La Convención, Cusco. Cosechado por familias que volvieron a creer y transformado en granos de pura esperanza. Desde nuestra sucursal en la República Checa, abrimos los brazos a Europa para entregar este tesoro seco, asegurando que cada rincón del continente reciba sus nombres, su lucha y sus historias intactas.",
+  hero_desc: "Cacao Chuncho de Cusco. Cosechado por familias que volvieron a creer y transformado en granos de pura esperanza. Desde nuestra sucursal en la República Checa, abrimos los brazos a Europa para entregar este tesoro seco, asegurando que cada rincón del continente reciba sus nombres, su lucha y sus historias intactas.",
   hero_cta_primary: 'GENERAR IMPACTO',
   hero_cta_secondary: 'Nuestros Productores',
 

@@ -53,7 +53,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-start justify-center text-left px-6 md:px-16 max-w-4xl">
-        <p className="text-gold text-sm tracking-[0.4em] uppercase font-serif mb-4" style={{ fontWeight: 800, filter: 'drop-shadow(0 1px 4px rgba(0,0,0,0.6))' }}>
+        <p className="text-gold text-sm tracking-[0.2em] uppercase font-serif font-black mb-4 opacity-90">
           {t('hero_eyebrow')}
         </p>
         <p className="font-serif font-black text-[clamp(0.85rem,2.3vw,1.9rem)] leading-tight tracking-[0.08em] text-cream uppercase mb-4 whitespace-pre-line pl-1 md:pl-2">
