@@ -376,6 +376,16 @@ const de = {
   historia_press: "Pfeil drücken um weiterzulesen",
   historia_frase: "Jede große Veränderung beginnt, wenn jemand beschließt zu glauben.",
   mision_tagline: "Von den Bergen Cuscos in die Welt: ein Projekt, das Leben verändern will.",
+  unidos_eyebrow: "Unsere gemeinsame Vision",
+  unidos_title: "Vereint durch einen Traum",
+  unidos_extraordinary: "AUSSERGEWÖHNLICHES.",
+  unidos_cards: [
+    "Ich möchte, dass wir gemeinsam etwas aufbauen, das viel größer ist als ein Unternehmen. Ich möchte, dass wir — zusammen mit Ihnen, unseren Chuncho Organic Kakao-Produzenten aus Cusco — zu einer großen Familie werden. Eine Familie, die durch Arbeit, Respekt, Vertrauen und den Traum verbunden ist, einen der wertvollsten Schätze unseres Landes in die Welt zu bringen: peruanischen Chuncho Organic Kakao.",
+    "Ich träume von dem Tag, an dem unser Chuncho Organic Kakao international anerkannt wird — nicht nur für seine außergewöhnliche Qualität, sondern auch für sein unvergleichliches Aroma, seinen einzigartigen Ursprung und die menschliche Geschichte hinter jeder Ernte. Vor allem aber träume ich davon, dass jeder von Ihnen anerkannt wird. Für Ihre Jahre des Einsatzes. Für die Liebe, die Sie in jede Pflanze stecken. Für die frühen Morgenstunden der Arbeit. Für die stille Hingabe, die so lange niemand sah oder schätzte.",
+    "Denn hinter dem besten Kakao steckt nicht nur fruchtbare Erde. Es gibt Familien. Es gibt Opfer. Es gibt Geschichte. Es gibt Herz. Und das ist es, was ich der Welt zeigen möchte.",
+    "Ich möchte kein Projekt aufbauen, in dem nur ein Unternehmen wächst. Ich möchte ein Projekt aufbauen, in dem wir alle gemeinsam wachsen. Wo jeder Produzent stolz auf seine Arbeit ist, wo seine Kinder sehen können, dass die Arbeit ihrer Eltern sogar außerhalb Perus bewundert und respektiert wird.",
+    "Ich möchte, dass dieses Projekt zu einer echten Chance wird, Leben zu verändern, Türen zu öffnen und zu beweisen, dass aus den Bergen und Gemeinschaften Cuscos einer der besten Kakaos der Welt entstehen kann. Das ist nicht nur Kakao-Export. Das bedeutet, unsere Geschichte, unsere Kultur und unsere Identität in die ganze Welt zu tragen. Und ich möchte es gemeinsam mit Ihnen tun. Denn ich bin von einer Sache überzeugt: Wenn Menschen als große Familie zusammenarbeiten, mit Zweck, Würde und Herz… können sie etwas wirklich"
+  ],
 };
 
 export default de;

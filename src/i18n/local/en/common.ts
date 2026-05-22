@@ -376,6 +376,16 @@ const en = {
   historia_press: "Press an arrow to keep reading",
   historia_frase: "Every great change begins when someone decides to believe.",
   mision_tagline: "From the mountains of Cusco to the world: a project that seeks to change lives.",
+  unidos_eyebrow: "Our shared vision",
+  unidos_title: "United by a Dream",
+  unidos_extraordinary: "EXTRAORDINARY.",
+  unidos_cards: [
+    "I want us to build something much greater than a company together. I want us — along with you, our Chuncho Organic Cacao producers from Cusco — to become one great family. A family united by work, respect, trust and the dream of bringing one of our land's most precious treasures to the world: Peruvian Chuncho Organic Cacao.",
+    "I dream of the day our Chuncho Organic Cacao is recognized internationally not only for its extraordinary quality, but also for its unmatched aroma, its unique origin and the human story behind every harvest. But above all, I dream that each of you will be recognized. Recognized for your years of effort. For the love you put into every plant. For the early mornings of work. For the silent dedication that for so long no one saw or valued as it deserved.",
+    "Because behind the best cacao there is not only fertile land. There are families. There are sacrifices. There is history. There is heart. And that is what I want to show the world.",
+    "I do not want to build a project where only a company grows. I want to build a project where we all grow together. Where every producer feels proud of what they do, where their children can see that their parents' work is admired and respected even outside Peru.",
+    "I want this project to become a real opportunity to transform lives, open doors and prove that from the mountains and communities of Cusco one of the world's finest cacaos can be born. This is not just about exporting cacao. This is about bringing our history, our culture and our identity to the entire world. And I want to do it together with you. Because I am convinced of one thing: When people work together as one great family, with purpose, dignity and heart… they can create something truly"
+  ],
 };
 
 export default en;

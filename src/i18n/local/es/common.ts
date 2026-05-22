@@ -385,6 +385,16 @@ const es = {
   historia_press: "Presiona una flecha para seguir leyendo",
   historia_frase: "Todo gran cambio comienza cuando alguien decide creer.",
   mision_tagline: "Desde las montañas del Cusco hacia el mundo: un proyecto que busca cambiar vidas.",
+  unidos_eyebrow: "Nuestra visión compartida",
+  unidos_title: "Unidos por un Sueño",
+  unidos_extraordinary: "EXTRAORDINARIO.",
+  unidos_cards: [
+    "Quiero que juntos construyamos algo mucho más grande que una empresa. Quiero que, junto a ustedes — nuestros productores de Cacao Chuncho Orgánico del Cusco — nos convirtamos en una gran familia. Una familia unida por el trabajo, el respeto, la confianza y el sueño de llevar al mundo uno de los tesoros más valiosos de nuestra tierra: el Cacao Chuncho Orgánico del Perú.",
+    "Sueño con el día en que nuestro Cacao Chuncho Orgánico sea reconocido internacionalmente no solo por su calidad extraordinaria, sino también por su aroma inigualable, su origen único y la historia humana que existe detrás de cada cosecha. Pero, sobre todo, sueño con que cada uno de ustedes sea reconocido. Reconocido por sus años de esfuerzo. Por el amor que ponen en cada planta. Por las madrugadas de trabajo. Por la dedicación silenciosa que durante mucho tiempo nadie vio ni valoró como merecía.",
+    "Porque detrás del mejor cacao no solo hay tierra fértil. Hay familias. Hay sacrificios. Hay historia. Hay corazón. Y eso es lo que quiero mostrarle al mundo.",
+    "No quiero construir un proyecto donde solo crezca una empresa. Quiero construir un proyecto donde crezcamos todos juntos. Donde cada productor se sienta orgulloso de lo que hace, donde sus hijos puedan ver que el trabajo de sus padres es admirado y respetado incluso fuera del Perú.",
+    "Quiero que este proyecto se convierta en una oportunidad real para transformar vidas, abrir puertas y demostrar que desde las montañas y comunidades del Cusco puede nacer uno de los mejores cacaos del mundo. Esto no es solo exportar cacao. Esto es llevar nuestra historia, nuestra cultura y nuestra identidad al mundo entero. Y quiero hacerlo junto a ustedes. Porque estoy convencida de algo: Cuando las personas trabajan unidas como una gran familia, con propósito, dignidad y corazón… pueden crear algo verdaderamente"
+  ],
 };
 
 export default es;

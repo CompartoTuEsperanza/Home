@@ -376,6 +376,16 @@ const cs = {
   historia_press: "Stiskni šipku pro čtení dál",
   historia_frase: "Každá velká změna začíná, když se někdo rozhodne věřit.",
   mision_tagline: "Z hor Cusca do světa: projekt, který chce měnit životy.",
+  unidos_eyebrow: "Naše společná vize",
+  unidos_title: "Spojeni jedním snem",
+  unidos_extraordinary: "MIMOŘÁDNÉHO.",
+  unidos_cards: [
+    "Chci, abychom společně vybudovali něco mnohem většího než firmu. Chci, abychom — spolu s vámi, našimi producenty Chuncho Organic kakaa z Cusca — se stali jednou velkou rodinou. Rodinou spojenou prací, respektem, důvěrou a snem přinést světu jeden z nejvzácnějších pokladů naší země: peruánské Chuncho Organic kakao.",
+    "Sním o dni, kdy naše Chuncho Organic kakao bude mezinárodně uznáváno nejen pro svou mimořádnou kvalitu, ale také pro své nesrovnatelné aroma, jedinečný původ a lidský příběh za každou sklizní. Ale především sním o tom, aby každý z vás byl uznán. Za roky úsilí. Za lásku, kterou vkládáte do každé rostliny. Za ranní hodiny práce. Za tiché odhodlání, které tak dlouho nikdo neviděl ani neocenил jak si zasluhovalo.",
+    "Protože za nejlepším kakaem není jen úrodná půda. Jsou tam rodiny. Jsou tam oběti. Je tam historie. Je tam srdce. A to je to, co chci ukázat světu.",
+    "Nechci budovat projekt, kde roste jen firma. Chci budovat projekt, kde rosteme všichni společně. Kde se každý producent cítí hrdý na to, co dělá, kde jeho děti mohou vidět, že práce jejich rodičů je obdivována a respektována i mimo Peru.",
+    "Chci, aby se tento projekt stal skutečnou příležitostí transformovat životy, otevírat dveře a dokázat, že z hor a komunit Cusca se může zrodit jedno z nejlepších kakaa na světě. Nejde jen o export kakaa. Jde o přenesení naší historie, naší kultury a naší identity do celého světa. A chci to udělat společně s vámi. Protože jsem přesvědčena o jedné věci: Když lidé pracují společně jako velká rodina, s účelem, důstojností a srdcem… mohou vytvořit něco skutečně"
+  ],
 };
 
 export default cs;

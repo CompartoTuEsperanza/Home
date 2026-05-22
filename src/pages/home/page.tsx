@@ -4,6 +4,7 @@ import CartPanel from './components/CartPanel';
 import AndeanBasketToast from './components/AndeanBasketToast';
 import Hero from './components/Hero';
 import Manifesto from './components/Manifesto';
+import UnidosSection from './components/UnidosSection';
 import MisionSection from './components/MisionSection';
 import VisionSection from './components/VisionSection';
 // import Products from './components/Products';
@@ -71,6 +72,7 @@ const HomePage = () => {
       <Farmers />
       <HistoriaSection />
       <Manifesto />
+      <UnidosSection />
       <MisionSection />
       <VisionSection />
       {/* <ImpactSlider /> */}
