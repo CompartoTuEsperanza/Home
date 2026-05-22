@@ -53,6 +53,19 @@ export default function UnidosSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
+          {/* Frase cursiva guinda */}
+          <p style={{
+            fontFamily: "'Playfair Display', serif",
+            fontStyle: 'italic',
+            fontWeight: 800,
+            fontSize: 'clamp(1.3rem, 2.8vw, 2.8rem)',
+            color: '#7A1D2E',
+            lineHeight: 1.25,
+            marginBottom: '1.2rem',
+            textShadow: '0 1px 6px rgba(0,0,0,0.25)',
+          }}>
+            {t('unidos_frase')}
+          </p>
           <h2 style={{
             fontFamily: "'Playfair Display', serif",
             fontWeight: 900,

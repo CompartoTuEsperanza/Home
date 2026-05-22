@@ -387,6 +387,7 @@ const cs = {
     "Chci, aby se tento projekt stal skutečnou příležitostí transformovat životy, otevírat dveře a dokázat, že z hor a komunit Cusca se může zrodit jedno z nejlepších kakaa na světě. Nejde jen o export kakaa. Jde o přenesení naší historie, naší kultury a naší identity do celého světa. A chci to udělat společně s vámi. Protože jsem přesvědčena o jedné věci: Když lidé pracují společně jako velká rodina, s účelem, důstojností a srdcem… mohou vytvořit něco skutečně"
   ],
   unidos_press: "Stiskni šipku pro čtení dál",
+  unidos_frase: "Nejlepší kakao vzniká, když půda, srdce a naděje pracují společně a stanou se jednou velkou rodinou.",
 };
 
 export default cs;

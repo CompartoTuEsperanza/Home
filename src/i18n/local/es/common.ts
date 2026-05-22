@@ -396,6 +396,7 @@ const es = {
     "Quiero que este proyecto se convierta en una oportunidad real para transformar vidas, abrir puertas y demostrar que desde las montañas y comunidades del Cusco puede nacer uno de los mejores cacaos del mundo. Esto no es solo exportar cacao. Esto es llevar nuestra historia, nuestra cultura y nuestra identidad al mundo entero. Y quiero hacerlo junto a ustedes. Porque estoy convencida de algo: Cuando las personas trabajan unidas como una gran familia, con propósito, dignidad y corazón… pueden crear algo verdaderamente"
   ],
   unidos_press: "Presiona una flecha para seguir leyendo",
+  unidos_frase: "El mejor cacao nace cuando la tierra, el corazón y la esperanza trabajan juntos y se vuelven una gran familia.",
 };
 
 export default es;

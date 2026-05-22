@@ -387,6 +387,7 @@ const de = {
     "Ich möchte, dass dieses Projekt zu einer echten Chance wird, Leben zu verändern, Türen zu öffnen und zu beweisen, dass aus den Bergen und Gemeinschaften Cuscos einer der besten Kakaos der Welt entstehen kann. Das ist nicht nur Kakao-Export. Das bedeutet, unsere Geschichte, unsere Kultur und unsere Identität in die ganze Welt zu tragen. Und ich möchte es gemeinsam mit Ihnen tun. Denn ich bin von einer Sache überzeugt: Wenn Menschen als große Familie zusammenarbeiten, mit Zweck, Würde und Herz… können sie etwas wirklich"
   ],
   unidos_press: "Pfeil drücken um weiterzulesen",
+  unidos_frase: "Der beste Kakao entsteht, wenn Erde, Herz und Hoffnung zusammenarbeiten und zu einer großen Familie werden.",
 };
 
 export default de;
