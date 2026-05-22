@@ -176,22 +176,23 @@ const HistoriaSection = () => {
           </div>
 
         </div>
-      </div>
 
-      {/* Frase final a lo ancho */}
-      <div style={{ zIndex: 2, position: 'relative', padding: '7rem 2.5rem 3rem', textAlign: 'center' }}>
-        <p style={{
-          fontFamily: "'Playfair Display', serif",
-          fontStyle: 'italic',
-          fontWeight: 700,
-          fontSize: 'clamp(1.2rem, 2.8vw, 2rem)',
-          color: 'rgba(255,248,240,0.92)',
-          letterSpacing: '0.03em',
-          lineHeight: 1.3,
-          textShadow: '0 2px 12px rgba(0,0,0,0.6)',
-        }}>
-          "{t('historia_frase')}"
-        </p>
+        {/* Frase final centrada */}
+        <div style={{ textAlign: 'center', marginTop: '3rem', paddingBottom: '1rem' }}>
+          <p style={{
+            fontFamily: "'Playfair Display', serif",
+            fontStyle: 'italic',
+            fontWeight: 700,
+            fontSize: 'clamp(1.2rem, 2.8vw, 2rem)',
+            color: 'rgba(255,248,240,0.92)',
+            letterSpacing: '0.03em',
+            lineHeight: 1.3,
+            textShadow: '0 2px 12px rgba(0,0,0,0.6)',
+          }}>
+            "{t('historia_frase')}"
+          </p>
+        </div>
+
       </div>
 
     </section>
