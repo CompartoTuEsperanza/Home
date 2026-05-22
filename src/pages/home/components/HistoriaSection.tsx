@@ -84,11 +84,11 @@ const GoldenTitle = ({ text }: { text: string }) => (
     <p style={{
       fontFamily: "'Playfair Display',serif", fontWeight: 900,
       fontSize: 'clamp(1.2rem, 2.6vw, 1.7rem)', letterSpacing: '0.06em',
-      background: 'linear-gradient(90deg,#f0d060,#ffe060,#f0d060)',
+      background: 'linear-gradient(90deg,#FFD700,#FFE44D,#FFD700)',
       WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
       backgroundClip: 'text', lineHeight: 1.2,
     }}>{text}</p>
-    <div style={{ height: '2px', width: '40px', background: 'linear-gradient(90deg,#f0d060,transparent)', marginTop: '0.3rem' }} />
+    <div style={{ height: '2px', width: '40px', background: 'linear-gradient(90deg,#FFD700,transparent)', marginTop: '0.3rem' }} />
   </div>
 );
 
@@ -152,8 +152,8 @@ const HistoriaSection = () => {
             <Carrusel cards={cards1} pressLabel={pressLabel} />
           </div>
 
-          {/* RIGHT: COMPARTO TU ESPERANZA */}
-          <div style={fadeRight}>
+          {/* RIGHT: COMPARTO TU ESPERANZA — alineado al botón guinda izquierdo */}
+          <div style={{ ...fadeRight, paddingTop: 'calc(0.7rem + 1.1em + 0.4rem + clamp(1.8rem,3.5vw,2.8rem) * 2.4 + 1.2rem + 2.4rem)' }}>
             <GoldenTitle text="COMPARTO TU ESPERANZA" />
             <Carrusel cards={cards2} pressLabel={pressLabel} />
           </div>
