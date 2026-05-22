@@ -49,6 +49,11 @@ export default function UnidosSection() {
         className="absolute inset-0 bg-center bg-cover pointer-events-none"
         style={{ backgroundImage: 'url(/Home/images/cards.png)' }}
       />
+      {/* Overlay mínimo marrón */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: 'rgba(40,18,6,0.18)' }}
+      />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Header */}
