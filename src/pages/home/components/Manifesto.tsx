@@ -142,31 +142,7 @@ const Manifesto = () => {
             ))}
           </h2>
 
-          {/* Tab switcher */}
-          <div className="flex gap-1 bg-coffee-800 rounded-full p-1 mb-6 w-fit">
-            {tabs.map((tab, i) => (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTab(i)}
-                className={`relative overflow-hidden px-4 py-1.5 rounded-full text-xs tracking-widest uppercase transition-all duration-300 cursor-pointer whitespace-nowrap ${
-                  activeTab === i
-                    ? 'text-cream font-semibold'
-                    : 'text-cream/50 hover:text-cream'
-                }`}
-                style={activeTab === i
-                  ? { fontFamily: "'Playfair Display', serif", background: 'linear-gradient(135deg, #3F0D17 0%, #7A1D2E 50%, #3F0D17 100%)', boxShadow: '0 0 18px rgba(122,29,46,0.55), 0 0 10px rgba(201,169,110,0.25)' }
-                  : { fontFamily: "'Playfair Display', serif" }}
-              >
-                {activeTab === i && (
-                  <span
-                    className="absolute top-0 bottom-0 w-1/3 bg-gradient-to-r from-transparent via-white/40 to-transparent"
-                    style={{ animation: 'shimmerSweep 2s ease-in-out infinite' }}
-                  />
-                )}
-                <span className="relative z-10">{tab.label}</span>
-              </button>
-            ))}
-          </div>
+
 
           {/* Tab content */}
           <div className="mb-8">
