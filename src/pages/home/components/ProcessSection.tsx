@@ -133,7 +133,7 @@ const ProcessSection = () => {
                   {/* Active: circular image highlight */}
                   {isActive && (
                     <div
-                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] w-20 h-20 rounded-full overflow-hidden z-10"
+                      className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full overflow-hidden z-10"
                       style={{
                         border: '2.5px solid rgba(122,29,46,0.85)',
                         boxShadow: '0 0 20px rgba(122,29,46,0.55), 0 0 14px rgba(255,255,255,0.35)',
