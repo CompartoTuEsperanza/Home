@@ -52,7 +52,7 @@ export default function UnidosSection() {
       {/* Overlay mínimo marrón */}
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: 'rgba(40,18,6,0.32)' }}
+        style={{ background: 'rgba(40,18,6,0.42)' }}
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">

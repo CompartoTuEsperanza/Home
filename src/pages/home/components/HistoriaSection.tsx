@@ -133,7 +133,7 @@ const HistoriaSection = () => {
             transform: visible ? 'translateX(0)' : 'translateX(-30px)',
             transition: 'opacity 0.7s ease, transform 0.7s ease',
           }}>
-            <p style={{ color: '#C9A84C', fontSize: '0.68rem', letterSpacing: '0.4em', textTransform: 'uppercase', fontFamily: 'sans-serif', marginBottom: '0.7rem' }}>
+            <p style={{ color: '#C9A84C', fontSize: '0.85rem', letterSpacing: '0.35em', textTransform: 'uppercase', fontFamily: "'Playfair Display', serif", fontWeight: 800, marginBottom: '0.7rem', textShadow: '0 1px 6px rgba(0,0,0,0.3)' }}>
               {t('historia_eyebrow')}
             </p>
             <h2 style={{
